@@ -17,8 +17,8 @@ export const servicesB: ServicePage[] = [
       "An automatic gate lets you open the driveway from the truck seat and close it behind you without getting out in the rain. Esteve's builds automatic gate systems, so the gate, the opener and whatever the gate hangs on get planned at the same time.",
       "Manual driveway gates, double gates and walk gates are part of the work too, for homes around Thibodaux, Houma, Raceland and Bayou Blue. Brick columns on each side and a concrete apron under the gate can be added, since masonry columns and concrete are both work we do.",
     ],
-    heroImage: "/images/projects/gates/black-aluminum-driveway-gate-palms.jpg",
-    heroAlt: "Black aluminum driveway gate and matching fence beside palm trees and a brick home",
+    heroImage: "/images/projects/gates/black-aluminum-driveway-gates-white-brick-columns.jpg",
+    heroAlt: "Black aluminum double driveway gates between white brick columns",
     sections: [
       {
         h2: "Should I get a swing gate or a slide gate?",
@@ -74,7 +74,7 @@ export const servicesB: ServicePage[] = [
     gallery: [
       "/images/fb/gates/black-aluminum-double-driveway-gates.jpg",
       "/images/projects/brick-columns/wood-privacy-fence-brick-columns-aluminum-gate.jpg",
-      "/images/fb/gates/black-aluminum-gate-carport.jpg",
+      "/images/projects/gates/black-aluminum-driveway-gate-palms.jpg",
       "/images/projects/gates/wood-privacy-double-gate-side-yard.jpg",
     ],
     faqs: [
@@ -184,8 +184,8 @@ export const servicesB: ServicePage[] = [
     gallery: [
       "/images/fb/brick-columns/brick-columns-cedar-lattice-fence.jpg",
       "/images/fb/brick-columns/subdivision-vinyl-fence-brick-columns-entrance.jpg",
-      "/images/projects/brick-columns/wood-privacy-fence-brick-column-trees.jpg",
-      "/images/fb/brick-columns/brick-columns-shadowbox-gate-crew.jpg",
+      "/images/projects/brick-columns/shadowbox-fence-brick-column-live-oak.jpg",
+      "/images/projects/brick-columns/cedar-gate-brick-lattice-columns.jpg",
     ],
     faqs: [
       {
@@ -603,10 +603,12 @@ export const servicesB: ServicePage[] = [
       "Gate aprons and pads planned together with your fence or gate",
     ],
     gallery: [
-      "/images/projects/concrete/wood-privacy-fence-concrete-patio-new-home.jpg",
-      "/images/fb/concrete/concrete-slab-metal-building.jpg",
-      "/images/fb/concrete/concrete-front-walkway.jpg",
-      "/images/fb/concrete/concrete-forms-crew-mixer.jpg",
+      "/images/projects/concrete/concrete-driveway-patio-large.jpg",
+      "/images/projects/concrete/concrete-patio-slab-pond-fence.jpg",
+      "/images/projects/concrete/concrete-driveway-widening.jpg",
+      "/images/projects/concrete/concrete-walkway-pour-cottage.jpg",
+      "/images/projects/concrete/concrete-patio-brick-home.jpg",
+      "/images/projects/concrete/concrete-driveway-extension-new-home.jpg",
     ],
     faqs: [
       {

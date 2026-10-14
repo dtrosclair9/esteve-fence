@@ -300,7 +300,7 @@ export const cityPages: CityPage[] = [
     ],
     nearby: ["Chackbay", "Choupique", "Kraemer", "Labadieville", "Schriever", "Raceland", "Bayou Blue"],
     gallery: [
-      "/images/fb/concrete/concrete-slab-metal-building.jpg",
+      "/images/projects/gates/black-aluminum-driveway-gates-white-brick-columns.jpg",
       "/images/fb/concrete/concrete-driveway-pour-in-progress.jpg",
       "/images/fb/gates/black-aluminum-gate-carport.jpg",
     ],

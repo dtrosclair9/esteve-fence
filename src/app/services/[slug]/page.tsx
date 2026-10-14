@@ -54,7 +54,7 @@ export default async function ServiceRoute({ params }: Params) {
             heading: cities.length ? `${svc.navLabel} by city` : 'Where we work',
             text: cities.length
               ? `We run ${svc.navLabel.toLowerCase()} jobs all over Lafourche and Terrebonne. These pages cover what is different about the work in each city.`
-              : `Esteve's is based in ${site.city} and takes ${svc.navLabel.toLowerCase()} jobs across Lafourche, Terrebonne and Assumption parishes.`,
+              : `Esteve's is based in ${site.city} and works across Lafourche, Terrebonne and Assumption parishes.`,
             links: cities.map((c) => ({ label: c.h1, href: `/services/${c.slug}` })),
             towns: defaultTowns,
           }}

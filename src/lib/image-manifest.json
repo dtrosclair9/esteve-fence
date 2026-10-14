@@ -275,16 +275,16 @@
  {
   "src": "/images/fb/marine/marine-helideck-safety-net-crew.jpg",
   "alt": "Crew member installing helideck perimeter safety netting",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1500,
+  "h": 2000,
+  "thumb": false
  },
  {
   "src": "/images/fb/marine/marine-vessel-helideck.jpg",
   "alt": "Vessel helideck with perimeter safety netting",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/marine/marine-helideck-net-install.jpg",
@@ -296,9 +296,9 @@
  {
   "src": "/images/fb/wood/horizontal-wood-fence-cottage.jpg",
   "alt": "Horizontal wood fence beside a white cottage",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/wood/wood-shadowbox-fence-backyard-corner.jpg",
@@ -310,51 +310,51 @@
  {
   "src": "/images/fb/wood/wood-shadowbox-fence-gate-brick-home.jpg",
   "alt": "Shadowbox wood fence and gate beside a brick home",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/wood/dog-ear-picket-fence-yard-sign.jpg",
   "alt": "Dog-ear picket fence with an Esteve's yard sign",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/concrete/concrete-driveway-brick-home.jpg",
   "alt": "New concrete driveway at a brick home",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/concrete/concrete-driveway-rural-garage.jpg",
   "alt": "Long concrete driveway to a garage on a rural lot",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/concrete/concrete-patio-extension.jpg",
   "alt": "Concrete patio extension behind a brick home",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/concrete/concrete-front-walkway.jpg",
   "alt": "Curved concrete walkway to a front entry",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/wood/horizontal-wood-fence-new-build.jpg",
   "alt": "Horizontal wood fence around a new build",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/aluminum/black-aluminum-fence-fire-pit-patio.jpg",
@@ -401,30 +401,30 @@
  {
   "src": "/images/fb/wood/black-horizontal-privacy-screen-white-brick.jpg",
   "alt": "Black horizontal privacy screen between white brick walls",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/gates/black-horizontal-privacy-gate-lakefront.jpg",
   "alt": "Black horizontal privacy gate on a lakefront property",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/concrete/concrete-driveway-workshop.jpg",
   "alt": "Concrete driveway leading to a workshop",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1080,
+  "h": 1350,
+  "thumb": false
  },
  {
   "src": "/images/fb/concrete/concrete-slab-metal-building.jpg",
   "alt": "Concrete apron at a metal building",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1080,
+  "h": 1350,
+  "thumb": false
  },
  {
   "src": "/images/fb/concrete/concrete-driveway-pour-in-progress.jpg",
@@ -436,44 +436,44 @@
  {
   "src": "/images/fb/wood/dog-ear-picket-fence-side-yard.jpg",
   "alt": "Dog-ear picket fence along a side yard",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 960,
+  "h": 1280,
+  "thumb": false
  },
  {
   "src": "/images/fb/wood/wood-shadowbox-fence-driveway.jpg",
   "alt": "Shadowbox wood fence alongside a driveway",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/wood/wood-privacy-fence-shaded-backyard.jpg",
   "alt": "Wood privacy fence around a shaded backyard",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/concrete/concrete-pour-forms-street.jpg",
   "alt": "Concrete pour with forms set along a street",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/concrete/concrete-forms-crew-mixer.jpg",
   "alt": "Crew setting forms ahead of a concrete truck",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 960,
+  "h": 1280,
+  "thumb": false
  },
  {
   "src": "/images/fb/gates/wood-privacy-gate-side-yard.jpg",
   "alt": "Wood privacy walk gate on a side yard",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 960,
+  "h": 1280,
+  "thumb": false
  },
  {
   "src": "/images/fb/wood/wood-privacy-fence-driveway-farmland.jpg",
@@ -485,9 +485,9 @@
  {
   "src": "/images/fb/gates/cedar-gate-black-hardware.jpg",
   "alt": "Cedar walk gate with black hardware and an Esteve's sign",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 960,
+  "h": 1280,
+  "thumb": false
  },
  {
   "src": "/images/fb/aluminum/wood-and-aluminum-fence-combo.jpg",
@@ -506,9 +506,9 @@
  {
   "src": "/images/fb/wood/cedar-privacy-fence-backyard-patio.jpg",
   "alt": "Cedar privacy fence around a backyard patio",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/wood/shadowbox-fence-farmland-view.jpg",
@@ -527,9 +527,9 @@
  {
   "src": "/images/fb/brick-columns/brick-columns-cedar-lattice-fence.jpg",
   "alt": "Brick columns with diamond-lattice cedar fence panels in a stone courtyard",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/brick-columns/brick-columns-lattice-fence-fireplace.jpg",
@@ -541,23 +541,23 @@
  {
   "src": "/images/fb/brick-columns/brick-columns-shadowbox-gate-crew.jpg",
   "alt": "Crew member at a shadowbox gate between brick columns",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/wood/wood-privacy-fence-large-lot.jpg",
   "alt": "Wood privacy fence around a large lot",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/concrete/concrete-walkway-side-yard.jpg",
   "alt": "Concrete walkway along a side yard",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 960,
+  "h": 1280,
+  "thumb": false
  },
  {
   "src": "/images/fb/wood/wood-privacy-fence-long-run-cane-field.jpg",
@@ -569,9 +569,9 @@
  {
   "src": "/images/fb/gates/wood-privacy-double-gate.jpg",
   "alt": "New wood privacy double gate between brick homes",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/wood/wood-privacy-fence-large-backyard.jpg",
@@ -583,16 +583,16 @@
  {
   "src": "/images/fb/chain-link/black-chain-link-fence-backyard.jpg",
   "alt": "Black vinyl-coated chain link fence around a backyard",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/chain-link/black-chain-link-gate.jpg",
   "alt": "Black chain link walk gate beside a brick home",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/chain-link/black-chain-link-fence-residential.jpg",
@@ -604,37 +604,37 @@
  {
   "src": "/images/fb/commercial/galvanized-chain-link-commercial-oak.jpg",
   "alt": "Galvanized chain link fence around a commercial property under a live oak",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 2000,
+  "h": 1500,
+  "thumb": false
  },
  {
   "src": "/images/fb/aluminum/black-aluminum-carport-fence.jpg",
   "alt": "Black aluminum fence and gate across a carport",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/gates/black-aluminum-gate-carport.jpg",
   "alt": "Black aluminum gate at a carport",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/commercial/commercial-chain-link-new-construction.jpg",
   "alt": "Chain link fence around a new commercial building site",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 960,
+  "h": 1280,
+  "thumb": false
  },
  {
   "src": "/images/fb/chain-link/black-chain-link-fence-oak-trees.jpg",
   "alt": "Black chain link fence running under oak trees",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/brick-columns/subdivision-vinyl-fence-brick-columns-entrance.jpg",
@@ -653,15 +653,246 @@
  {
   "src": "/images/fb/vinyl/vinyl-fence-brick-columns-sidewalk.jpg",
   "alt": "Vinyl fence with brick columns along a subdivision sidewalk",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  },
  {
   "src": "/images/fb/vinyl/subdivision-vinyl-fence-brick-columns-corner.jpg",
   "alt": "Vinyl fence and brick columns at a subdivision corner",
-  "w": 414,
-  "h": 414,
-  "thumb": true
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/pool/black-aluminum-pool-fence-sunset-porch.jpg",
+  "alt": "Black aluminum pool fence seen from a back porch at sunset",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/brick-columns/cedar-gate-brick-lattice-columns.jpg",
+  "alt": "Cedar walk gate set between brick columns with lattice brickwork",
+  "w": 960,
+  "h": 1280,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/concrete/concrete-patio-forms-rebar.jpg",
+  "alt": "Concrete patio formed and reinforced with rebar, ready to pour",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/concrete/concrete-patio-slab-pond-fence.jpg",
+  "alt": "New concrete patio slab with a wood fence and aluminum fence along a pond",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/aluminum/wood-and-aluminum-fence-pond-backyard.jpg",
+  "alt": "Wood privacy fence meeting black aluminum fence along a backyard pond",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/concrete/concrete-patio-aluminum-fence-pond.jpg",
+  "alt": "Wide concrete patio facing a pond behind black aluminum fence",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/concrete/concrete-walkway-pour-cottage.jpg",
+  "alt": "Fresh concrete walkway poured to the front door of a white cottage",
+  "w": 960,
+  "h": 1280,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/brick-columns/shadowbox-fence-brick-column-statue.jpg",
+  "alt": "Shadowbox wood fence with a brick column beside a garden statue and concrete walk",
+  "w": 960,
+  "h": 1280,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/brick-columns/shadowbox-fence-brick-column-live-oak.jpg",
+  "alt": "Shadowbox wood fence and brick column under a live oak",
+  "w": 960,
+  "h": 1280,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/wood/wood-privacy-enclosure.jpg",
+  "alt": "Wood privacy enclosure screening an equipment area",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/wood/shadowbox-fence-backyard-patio.jpg",
+  "alt": "Shadowbox wood fence around a backyard with a stained concrete patio",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/concrete/concrete-driveway-extension-new-home.jpg",
+  "alt": "Concrete driveway extension at a new home",
+  "w": 960,
+  "h": 1280,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/wood/wood-privacy-fence-open-field.jpg",
+  "alt": "Wood privacy fence along an open field behind a home",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/gates/wood-fence-gate-new-home-walkway.jpg",
+  "alt": "Wood fence and walk gate beside a new home walkway",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/wood/shadowbox-fence-side-yard-landscaping.jpg",
+  "alt": "Shadowbox wood fence along a landscaped side yard",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/concrete/concrete-slab-carport.jpg",
+  "alt": "New concrete slab poured under a carport",
+  "w": 2000,
+  "h": 1500,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/concrete/concrete-patio-pour-new-home.jpg",
+  "alt": "Concrete patio poured behind a new brick home",
+  "w": 960,
+  "h": 1280,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/gates/wood-privacy-fence-gate-brick-home.jpg",
+  "alt": "Wood privacy fence and gate along the side of a brick home",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/wood/wood-privacy-fence-side-brick-home.jpg",
+  "alt": "Wood privacy fence along the side of a brick home",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/wood/wood-privacy-fence-long-run-trees.jpg",
+  "alt": "Long wood privacy fence along a treeline",
+  "w": 1838,
+  "h": 1536,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/wood/wood-privacy-fence-treeline.jpg",
+  "alt": "New wood privacy fence along a wooded lot line",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/gates/wood-privacy-double-gate-long-fence.jpg",
+  "alt": "Wood privacy double gate in a long new fence",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/brick-columns/wood-fence-brick-column-gate.jpg",
+  "alt": "Wood privacy fence and gate meeting a brick column",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/wood/cap-and-trim-wood-fence-long-run.jpg",
+  "alt": "Long cap-and-trim wood privacy fence across a backyard",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/concrete/concrete-side-walkway-fence.jpg",
+  "alt": "Concrete side walkway between a brick home and a wood fence",
+  "w": 960,
+  "h": 1280,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/concrete/concrete-driveway-widening.jpg",
+  "alt": "Concrete driveway widened alongside the original drive",
+  "w": 960,
+  "h": 1280,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/concrete/concrete-driveway-patio-large.jpg",
+  "alt": "Large new concrete driveway and parking pad",
+  "w": 960,
+  "h": 1280,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/concrete/concrete-patio-brick-home.jpg",
+  "alt": "New concrete patio off the back porch of a brick home",
+  "w": 960,
+  "h": 1280,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/gates/black-aluminum-driveway-gates-white-brick-columns.jpg",
+  "alt": "Black aluminum double driveway gates between white brick columns",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/aluminum/black-horizontal-fence-white-column.jpg",
+  "alt": "Black horizontal privacy fence with a white column",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/wood/wood-privacy-fence-gate-new-home.jpg",
+  "alt": "Wood privacy fence and gate beside a new home",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/aluminum/black-aluminum-fence-field-view.jpg",
+  "alt": "Black aluminum fence along a backyard facing open fields",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/aluminum/black-fence-backyard-treeline.jpg",
+  "alt": "Black fence across a backyard along a treeline",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
  }
 ]
