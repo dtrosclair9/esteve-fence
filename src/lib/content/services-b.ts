@@ -72,7 +72,7 @@ export const servicesB: ServicePage[] = [
       "Manual driveway gates for owners who don't need an opener",
     ],
     gallery: [
-      "/images/fb/gates/black-aluminum-double-driveway-gates.jpg",
+      "/images/projects/gates/black-aluminum-double-driveway-gates-brick-column.jpg",
       "/images/projects/brick-columns/wood-privacy-fence-brick-columns-aluminum-gate.jpg",
       "/images/projects/gates/black-aluminum-driveway-gate-palms.jpg",
       "/images/projects/gates/wood-privacy-double-gate-side-yard.jpg",

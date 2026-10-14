@@ -894,5 +894,26 @@
   "w": 1280,
   "h": 960,
   "thumb": false
+ },
+ {
+  "src": "/images/projects/gates/black-aluminum-double-driveway-gates-brick-column.jpg",
+  "alt": "Black aluminum double driveway gates across a concrete drive beside a brick column",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/brick-columns/wood-gate-brick-column-aluminum-fence.jpg",
+  "alt": "Wood gate hung on a brick column next to a black aluminum fence and gate",
+  "w": 1280,
+  "h": 960,
+  "thumb": false
+ },
+ {
+  "src": "/images/projects/concrete/concrete-patio-new-home-porch.jpg",
+  "alt": "New concrete patio extending off the back porch of a home",
+  "w": 2000,
+  "h": 1500,
+  "thumb": false
  }
 ]

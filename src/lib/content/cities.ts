@@ -177,8 +177,8 @@ export const cityPages: CityPage[] = [
       "Automatic gate installation in Houma covers a wide range of properties. Some are long lots down Grand Caillou Road or Bayou Dularge where the house sits far back from the road. Others are fenced yards in Houma's industrial areas that open and close all day.",
       "Esteve's builds the gate, the fence it ties into, the posts or brick columns that carry it, and the concrete under it. That matters in Terrebonne, where wet ground is the most common reason a gate stops working right.",
     ],
-    heroImage: "/images/projects/gates/black-aluminum-driveway-gate-palms.jpg",
-    heroAlt: "Black aluminum automatic driveway gate and fence beside palms and a brick home",
+    heroImage: "/images/projects/gates/black-aluminum-double-driveway-gates-brick-column.jpg",
+    heroAlt: "Black aluminum double driveway gates across a concrete drive beside a brick column",
     sections: [
       {
         h2: "Should I get a slide gate or a swing gate in Houma?",
@@ -221,7 +221,7 @@ export const cityPages: CityPage[] = [
     nearby: ["Bayou Blue", "Bayou Cane", "Montegut", "Bourg", "Dulac", "Chauvin", "Gray", "Schriever"],
     gallery: [
       "/images/fb/gates/black-aluminum-double-driveway-gates.jpg",
-      "/images/fb/concrete/concrete-driveway-rural-garage.jpg",
+      "/images/projects/gates/black-aluminum-driveway-gate-palms.jpg",
       "/images/fb/gates/black-horizontal-privacy-gate-lakefront.jpg",
     ],
     faqs: [
