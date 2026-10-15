@@ -6,7 +6,7 @@ import CtaBand from '@/components/CtaBand'
 import Faq from '@/components/Faq'
 import JsonLd from '@/components/JsonLd'
 import { BASE_URL, pageMeta, site } from '@/lib/site'
-import { BUSINESS_ID } from '@/lib/schema'
+import { BUSINESS_ID, ownerSchema } from '@/lib/schema'
 import type { FAQ } from '@/lib/types'
 
 export const metadata: Metadata = pageMeta({
@@ -16,7 +16,7 @@ export const metadata: Metadata = pageMeta({
   path: '/about',
 })
 
-// TODO: owner bio + Person schema once the owner confirms name, title and photo.
+// TODO: owner photo + short bio once Ross provides them.
 
 const faqs: FAQ[] = [
   {
@@ -37,18 +37,21 @@ export default function AboutPage() {
   return (
     <>
       <JsonLd
-        data={{
-          '@context': 'https://schema.org',
-          '@type': 'AboutPage',
-          url: `${BASE_URL}/about`,
-          name: 'About Esteve’s Fence Company',
-          about: { '@id': BUSINESS_ID },
-        }}
+        data={[
+          {
+            '@context': 'https://schema.org',
+            '@type': 'AboutPage',
+            url: `${BASE_URL}/about`,
+            name: 'About Esteve’s Fence Company',
+            about: { '@id': BUSINESS_ID },
+          },
+          ownerSchema(),
+        ]}
       />
       <PageHero
         eyebrow="About us"
         title="A Thibodaux Fence Company"
-        intro="Esteve’s Fence Company is locally owned and based in Thibodaux. We build fences, gates, brick columns and concrete for homeowners, farms and businesses across Lafourche, Terrebonne and Assumption parishes."
+        intro="Esteve’s Fence Company is locally owned by Ross Esteve and based in Thibodaux. We build fences, gates, brick columns and concrete for homeowners, farms and businesses across Lafourche, Terrebonne and Assumption parishes."
         image="/images/projects/wood/wood-shadowbox-fence-brick-column-gate.jpg"
         imageAlt="Shadowbox wood fence and gate meeting a brick column at the front of a home"
         crumbs={[{ name: 'About', path: '/about' }]}

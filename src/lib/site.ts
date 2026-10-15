@@ -7,6 +7,7 @@ export const BASE_URL = 'https://estevesfencecompany.com'
 export const site = {
   name: "Esteve's Fence Company",
   legalName: "Esteve's Fence Company, LLC",
+  owner: 'Ross Esteve',
   shortName: "Esteve's Fence",
   phoneDisplay: '(985) 414-0858',
   phoneRaw: '+19854140858',

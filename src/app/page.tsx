@@ -7,7 +7,7 @@ import Faq from '@/components/Faq'
 import CtaBand from '@/components/CtaBand'
 import JsonLd from '@/components/JsonLd'
 import { cityPages, services, towns } from '@/lib/content'
-import { howToSchema, localBusinessSchema, websiteSchema } from '@/lib/schema'
+import { howToSchema, localBusinessSchema, ownerSchema, websiteSchema } from '@/lib/schema'
 import { pageMeta, site } from '@/lib/site'
 import type { FAQ } from '@/lib/types'
 
@@ -96,7 +96,7 @@ export default function HomePage() {
 
   return (
     <>
-      <JsonLd data={[localBusinessSchema(), websiteSchema(), howToSchema('How a fence job works with Esteve’s Fence Company', steps)]} />
+      <JsonLd data={[localBusinessSchema(), ownerSchema(), websiteSchema(), howToSchema('How a fence job works with Esteve’s Fence Company', steps)]} />
 
       <PageHero
         size="home"

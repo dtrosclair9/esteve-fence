@@ -3,6 +3,7 @@ import type { FAQ } from './types'
 
 export const BUSINESS_ID = `${BASE_URL}/#business`
 export const WEBSITE_ID = `${BASE_URL}/#website`
+export const OWNER_ID = `${BASE_URL}/#owner`
 
 const abs = (p: string) => (p.startsWith('http') ? p : `${BASE_URL}${p}`)
 
@@ -39,7 +40,21 @@ export function localBusinessSchema() {
       ...site.areaServed.map((name) => ({ '@type': 'City', name: `${name}, LA` })),
       ...site.parishes.map((name) => ({ '@type': 'AdministrativeArea', name: `${name}, Louisiana` })),
     ],
+    founder: { '@id': OWNER_ID },
+    employee: { '@id': OWNER_ID },
     sameAs: [site.facebook],
+  }
+}
+
+export function ownerSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    '@id': OWNER_ID,
+    name: site.owner,
+    jobTitle: 'Owner',
+    worksFor: { '@id': BUSINESS_ID },
+    address: { '@type': 'PostalAddress', addressLocality: site.city, addressRegion: site.state, addressCountry: 'US' },
   }
 }
 
