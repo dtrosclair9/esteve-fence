@@ -16,6 +16,7 @@ export function localBusinessSchema() {
     legalName: site.legalName,
     url: BASE_URL,
     telephone: site.phoneRaw,
+    email: site.email,
     logo: abs('/images/brand/logo-full-light.svg'),
     image: abs('/images/projects/wood/cedar-board-on-board-fence-columns-long-run.jpg'),
     priceRange: '$$',

@@ -59,6 +59,12 @@ export default function ContactPage() {
                 </dd>
               </div>
               <div className="py-5">
+                <dt className="text-[12px] font-semibold uppercase tracking-label text-muted">Email</dt>
+                <dd className="mt-1 text-[17px]">
+                  <a href={`mailto:${site.email}`} className="link">{site.email}</a>
+                </dd>
+              </div>
+              <div className="py-5">
                 <dt className="text-[12px] font-semibold uppercase tracking-label text-muted">Hours</dt>
                 <dd className="mt-1 text-[17px]">{site.hours}. Closed Sunday.</dd>
               </div>

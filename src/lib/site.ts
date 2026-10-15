@@ -11,6 +11,7 @@ export const site = {
   shortName: "Esteve's Fence",
   phoneDisplay: '(985) 414-0858',
   phoneRaw: '+19854140858',
+  email: 'ross@estevesds.com',
   city: 'Thibodaux',
   state: 'LA',
   zip: '70301',

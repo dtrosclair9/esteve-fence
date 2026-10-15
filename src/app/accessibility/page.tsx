@@ -31,7 +31,8 @@ export default function AccessibilityPage() {
           <h2>Report a barrier</h2>
           <p>
             If something on this site is hard to use, please tell us so we can fix it. Call{' '}
-            <a href={`tel:${site.phoneRaw}`} className="link">{site.phoneDisplay}</a>, {site.hours}. We can also take your
+            <a href={`tel:${site.phoneRaw}`} className="link">{site.phoneDisplay}</a>, {site.hours}, or email{' '}
+            <a href={`mailto:${site.email}`} className="link">{site.email}</a>. We can also take your
             estimate request by phone.
           </p>
         </div>

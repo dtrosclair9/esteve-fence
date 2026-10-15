@@ -25,6 +25,9 @@ export default function Footer() {
                 {site.phoneDisplay}
               </a>
             </li>
+            <li>
+              <a href={`mailto:${site.email}`} className="underline underline-offset-4">{site.email}</a>
+            </li>
             <li>{site.city}, {site.state} {site.zip}</li>
             <li>{site.hours}</li>
             <li>Closed Sunday</li>
