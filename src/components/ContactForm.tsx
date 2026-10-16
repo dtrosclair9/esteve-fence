@@ -4,9 +4,8 @@ import { useState } from 'react'
 
 type FormState = 'idle' | 'loading' | 'success' | 'error'
 
-// TODO before launch: create the Formspree form (test recipient
-// daynetrosclair@icloud.com, then swap to the client's email) and paste its ID.
-const FORMSPREE_ENDPOINT = 'https://formspree.io/f/FORMSPREE_ID'
+// Formspree form (recipient is set in the Formspree dashboard).
+const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mnpjllzv'
 
 const SERVICES = [
   'Wood privacy fence',
@@ -21,6 +20,17 @@ const SERVICES = [
   'Fence repair',
   'Concrete driveway, patio or slab',
   'Something else',
+]
+
+// Feeds the "how much does Google send us" baseline, so Google stays first.
+const SOURCES = [
+  'Google',
+  'Facebook',
+  'Saw a yard sign',
+  'Saw your truck or a job you did',
+  'Friend, family or neighbor',
+  'Worked with you before',
+  'Other',
 ]
 
 const field =
@@ -93,6 +103,15 @@ export default function ContactForm() {
         <select id="service" name="service" className={field} defaultValue="">
           <option value="">Choose one</option>
           {SERVICES.map((s) => (
+            <option key={s}>{s}</option>
+          ))}
+        </select>
+      </div>
+      <div>
+        <label htmlFor="source" className={lbl}>How did you find us?</label>
+        <select id="source" name="source" className={field} defaultValue="">
+          <option value="" disabled>Choose one</option>
+          {SOURCES.map((s) => (
             <option key={s}>{s}</option>
           ))}
         </select>
