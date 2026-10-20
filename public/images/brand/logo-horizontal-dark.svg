@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 30.8.2, SVG Export Plug-In . SVG Version: 9.03 Build 0)  -->
 <svg version="1.1" id="Logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="75 75 1900 304"  xml:space="preserve">
+	 viewBox="75 75 1900 304" style="enable-background:new 0 0 2049.52 453.48;" xml:space="preserve">
 <g id="Mark">
 	<g id="Fence">
-		<rect id="Rail" x="243.56" y="217.83" style="fill:#9EEF3E;"/>
+		<rect id="Rail" x="243.56" y="217.83" style="fill:#9EEF3E;" width="201.54" height="21.77"/>
 		<polygon id="Picket_4" style="fill:#9EEF3E;" points="261.37,377.48 261.37,163.08 275.89,145.27 290.4,163.08 290.4,377.48 		"/>
 		<polygon id="Picket_3" style="fill:#9EEF3E;" points="314.15,377.48 314.15,163.08 328.66,145.27 343.18,163.08 343.18,377.48 		
 			"/>
@@ -15,7 +15,7 @@
 	<g id="E">
 		<polygon id="E_spine_picket" style="fill:#FFFFFF;" points="76,377.48 76,116.24 108.98,76 141.97,116.24 141.97,377.48 		"/>
 		<polygon id="E_top_bar" style="fill:#FFFFFF;" points="155.16,76 300.3,76 343.18,97.77 247.52,141.97 155.16,141.97 		"/>
-		<rect id="E_middle_bar" x="155.16" y="191.45" style="fill:#FFFFFF;"/>
+		<rect id="E_middle_bar" x="155.16" y="191.45" style="fill:#FFFFFF;" width="88.4" height="67.29"/>
 		<polygon id="E_bottom_bar" style="fill:#FFFFFF;" points="155.16,312.83 243.56,312.83 343.18,366.27 343.18,377.48 
 			155.16,377.48 		"/>
 	</g>
