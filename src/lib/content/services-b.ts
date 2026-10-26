@@ -16,8 +16,8 @@ export const servicesB: ServicePage[] = [
     h1: "Driveway Gates & Automatic Gates in Thibodaux & Houma",
     eyebrow: "Driveway gates · Lafourche, Terrebonne & Assumption",
     intro: [
-      "Esteve's builds driveway gates, double gates and walk gates to match the fence they belong to, and brick columns for a gate to hang between. We work across Lafourche, Terrebonne and Assumption parishes.",
-      "We don't install gate openers ourselves. If you want an automatic gate, we build the gate and bring in a separate licensed gate company for the opener. Just tell us at your estimate.",
+      "We build driveway gates, double gates and walk gates to go with your fence. We also build brick columns if you want the gate hung between them.",
+      "We don't install gate openers. If you want an automatic gate, we build the gate and bring in a separate licensed gate company to put in the opener. Let us know at the estimate.",
     ],
     heroImage: "/images/projects/gates/black-aluminum-driveway-gates-white-brick-columns.jpg",
     heroAlt: "Black aluminum double driveway gates between white brick columns",
@@ -25,30 +25,29 @@ export const servicesB: ServicePage[] = [
       {
         h2: "Do you install automatic gate openers?",
         body: [
-          "No. Esteve's builds the gate, and a separate licensed gate company installs the opener. When you tell us at the estimate that you want an automatic gate, we bring them in so the gate and the opener are planned together.",
-          "That way you aren't left calling two companies and trying to line them up yourself.",
+          "No. We build the gate, and we bring in a separate licensed gate company for the opener.",
         ],
       },
       {
         h2: "What can a driveway gate be built from?",
         body: [
-          "Usually the same material as the fence it connects to, so the gate looks like part of the fence. Aluminum doesn't rot or rust and is light for its size. Wood matches a wood privacy fence and needs sealing like the rest of the fence. Vinyl matches a vinyl fence and doesn't need painting.",
-          "Chain link is the economical choice for a back lot, a shop or acreage where you need a wide opening and don't need privacy. Several colors and styles are available in most materials, and we go over them at your free estimate.",
+          "Most people match the gate to the fence it connects to. Aluminum won't rot or rust and is fairly light. Wood goes with a wood privacy fence and needs sealing from time to time. Vinyl goes with a vinyl fence and never needs paint.",
+          "Chain link is the cheaper option for a back lot, a shop or a big piece of land where you need a wide opening and privacy doesn't matter. Most materials come in more than one color and style.",
         ],
       },
       {
         h2: "Do driveway gates need brick columns?",
         body: [
-          "No. Plenty of gates hang on posts. Brick columns are an option when you want the entrance to look more permanent, and since we build brick columns too, the columns and the gate can be part of the same job.",
+          "No. A gate can hang on posts just fine. Some people want columns because they like how they look at an entrance, and we can build those along with the gate.",
         ],
       },
     ],
     included: [
-      "Driveway gates built to match your fence",
+      "Driveway gates to go with your fence",
       "Double gates and walk gates",
-      "Gates in wood, aluminum, vinyl or chain link",
-      "Brick columns for a gate to hang between",
-      "A licensed gate company brought in when you want an opener",
+      "Wood, aluminum, vinyl or chain link",
+      "Brick columns on either side, if you want them",
+      "A separate licensed gate company brought in for an opener",
       "Free estimate at your property",
     ],
     gallery: [
@@ -59,30 +58,34 @@ export const servicesB: ServicePage[] = [
     ],
     faqs: [
       {
-        q: "Does Esteve's install gate openers?",
-        a: "No. We aren't licensed for openers. We build the gate and bring in a separate licensed gate company to install the opener, and we coordinate with them.",
+        q: "Can you build a gate for the fence I already have?",
+        a: "Most of the time, yes. We build the gate to match the fence that's there.",
       },
       {
         q: "Who do I call if my gate opener stops working?",
-        a: "The gate company that installed the opener. We don't service openers. If the gate itself or the fence around it needs work, call us at (985) 414-0858.",
+        a: "Call whoever installed the opener, since we don't service them. If it's the gate itself or the fence next to it, give us a call at (985) 414-0858.",
       },
       {
         q: "Can you build a gate without brick columns?",
-        a: "Yes. Gates can hang on posts. Columns are an option if you like the look, and we can talk through both at the estimate.",
+        a: "Sure. Posts work fine for most gates, and columns are just an option if you want them.",
       },
       {
         q: "What does a driveway gate cost?",
-        a: "It depends on the width, the material and whether you add brick columns. We come out, measure and talk it through, then send you a price for the whole job as a PDF by text or email.",
+        a: "Width, material and columns are what move the price. After we measure, you get a price.",
       },
       {
         q: "Do you work outside Thibodaux and Houma?",
-        a: "Yes. We work across Lafourche, Terrebonne and Assumption parishes and the surrounding areas. Travel on long jobs is an extra charge, and it shows on the estimate.",
+        a: "We do. We cover Lafourche, Terrebonne and Assumption parishes and nearby areas. On long jobs there's an extra charge for travel.",
       },
     ],
     related: ["brick-columns", "wood-fence", "aluminum-fence"],
     serviceType: "Driveway gate installation",
     cardBlurb:
-      "Driveway, double and walk gates built to match your fence, with openers installed by a licensed gate company we bring in.",
+      "Driveway, double and walk gates to go with your fence. For openers, we bring in an outside gate company.",
+    cta: {
+      heading: "Talk to us about your gate",
+      text: "If you want an opener too, mention it when you call and we’ll get the gate company involved.",
+    },
   },
 
   // ---------------------------------------------------------------------------
@@ -98,8 +101,8 @@ export const servicesB: ServicePage[] = [
     h1: "Brick Columns for Fences & Gates in Thibodaux",
     eyebrow: "Brick columns · Lafourche, Terrebonne & Assumption",
     intro: [
-      "Esteve's builds brick columns for fences and gates. Columns give a fence a finished, permanent look, and they give a gate something solid to hang between.",
-      "Our photos show a few ways it can go: wood privacy panels between painted brick columns, cedar lattice between columns, and vinyl panels between brick columns at a subdivision entrance.",
+      "Esteve's builds brick columns for fences and gates. A fence with columns looks more permanent, and a gate has something solid on each side.",
+      "You can see a few examples in our photos: wood privacy panels between painted brick columns, cedar lattice between columns, and vinyl panels with brick columns at a subdivision entrance.",
     ],
     heroImage: "/images/projects/brick-columns/wood-fence-panels-white-brick-columns.jpg",
     heroAlt: "Stained wood fence panels set between painted white brick columns",
@@ -107,23 +110,23 @@ export const servicesB: ServicePage[] = [
       {
         h2: "Why add brick columns to a fence?",
         body: [
-          "Mostly for the look. Columns break up a long run of fence and can tie it back to a brick house, so the fence looks like it went in with the home. They make the most sense where people see them: corners, ends, gates and entrances facing the street.",
-          "At a gate, brick is heavier and stiffer than a wood post, which is why a lot of people like columns on either side of a driveway or double gate.",
+          "Mostly looks. Columns break up a long fence and can match a brick house. Most people put them where they'll be seen, like corners, ends, gates and the front of the property.",
+          "Brick is also heavier and stiffer than a wood post, so a lot of people like a column on each side of a driveway gate or double gate.",
         ],
       },
       {
         h2: "What can go between brick columns?",
         body: [
-          "Almost any fence. Wood gives privacy and a warmer look, and it needs sealing over time. Vinyl is low upkeep and never needs staining, which is why it suits a neighborhood entrance. Aluminum lets you see through the fence. Cedar lattice is a more decorative option.",
-          "Whether columns go at every few panels or only at corners and gates is up to you. We go over spacing, materials and price at the free estimate.",
+          "Pretty much any fence. Wood gives you privacy and needs sealing every so often. Vinyl doesn't need stain or paint, so it works well at a neighborhood entrance. Aluminum you can see through. Cedar lattice is more decorative.",
+          "You decide whether columns go every few panels or just at corners and gates. We'll go over that and the price when we come look.",
         ],
       },
     ],
     included: [
       "Brick columns for fences and gates",
-      "Wood, vinyl or aluminum fencing between columns",
-      "Columns at corners, ends, gates and entrances",
-      "Columns built as part of a new fence or gate job",
+      "Wood, vinyl or aluminum between the columns",
+      "Columns at corners, ends, gates or entrances",
+      "Columns added to a new fence or gate job",
       "Free estimate at your property",
     ],
     gallery: [
@@ -135,29 +138,33 @@ export const servicesB: ServicePage[] = [
     faqs: [
       {
         q: "Can you add brick columns to my existing fence?",
-        a: "Call us and we'll look at it at the free estimate. Whether the existing fence can stay as it is depends on the fence.",
+        a: "Maybe. We'd need to see the fence first to know if it can stay. Call us and we'll take a look.",
       },
       {
         q: "How far apart should brick columns be?",
-        a: "It's mostly a matter of looks and budget. Some people want columns every few panels, others only at corners, ends and gates. Fewer columns cost less.",
+        a: "There's no set rule. Some people want a column every few panels and some only at corners, ends and gates. Fewer columns means a lower price.",
       },
       {
         q: "Are brick columns worth it for a gate?",
-        a: "For a driveway gate or a wide double gate, a lot of people think so, both for the look and because brick is stiffer than a wood post. For a small walk gate, a post is usually enough.",
+        a: "On a driveway gate or wide double gate, a lot of people think so, for the look and because brick is stiffer than wood. A small walk gate usually does fine on a post.",
       },
       {
         q: "Do you build brick columns for subdivision entrances?",
-        a: "Yes. One of our jobs is a subdivision entrance with vinyl panels between brick columns. Call (985) 414-0858 to talk through your entrance.",
+        a: "Yes, we've done a subdivision entrance with vinyl panels between brick columns. Call (985) 414-0858 if you have one in mind.",
       },
       {
         q: "What do brick columns cost?",
-        a: "It depends on how many columns, how tall, and what goes between them. We measure at the free estimate and send you a price for the whole job as a PDF by text or email.",
+        a: "The number of columns, their height and the fence between them all affect it. We'll measure and give you a price.",
       },
     ],
     related: ["automatic-gates", "wood-fence", "vinyl-fence"],
     serviceType: "Masonry fence columns",
     cardBlurb:
-      "Brick columns for fences and gates, with wood, vinyl or aluminum fencing between them.",
+      "Brick columns for fences and gates, with wood, vinyl or aluminum between them.",
+    cta: {
+      heading: "Columns for your fence or entrance",
+      text: "We can look at your fence line and talk about where columns would make sense.",
+    },
   },
 
   // ---------------------------------------------------------------------------
@@ -173,8 +180,8 @@ export const servicesB: ServicePage[] = [
     h1: "Commercial Fencing in Houma & Thibodaux",
     eyebrow: "Commercial fence company · Lafourche, Terrebonne & Assumption",
     intro: [
-      "Esteve's installs commercial fencing for businesses in Thibodaux, Houma and the surrounding parishes. That includes commercial chain link, with or without privacy slats, like the equipment enclosure in our photos.",
-      "Call (985) 414-0858 to set up a free estimate. We come out, measure, talk through the job and send a price for the whole thing as a PDF by text or email.",
+      "Esteve's puts up fences for businesses in Thibodaux, Houma and the surrounding parishes. A lot of that is commercial chain link, with or without privacy slats, like the roadside lot with privacy slats in our photos.",
+      "Call (985) 414-0858 for a free estimate. We'll measure, go over the details with you and send you a price.",
     ],
     heroImage: "/images/projects/commercial/commercial-chain-link-equipment-enclosure.jpg",
     heroAlt: "Chain link enclosure with privacy slats screening equipment behind a commercial building",
@@ -182,23 +189,23 @@ export const servicesB: ServicePage[] = [
       {
         h2: "What commercial fencing do you install?",
         body: [
-          "Commercial chain link is the main one. Chain link is strong, economical and a practical way to close off a large area. Privacy slats woven into it turn it into a screen, which helps when equipment, storage or dumpsters sit where customers or the road can see them.",
-          "We also build wood, aluminum and vinyl fences, which can suit a business that wants a cleaner look out front. And we've built a subdivision entrance with vinyl panels between brick columns.",
+          "Mostly commercial chain link. It covers a lot of ground for the money. Add privacy slats and it hides equipment, storage or dumpsters from customers and the road.",
+          "We also do wood, aluminum and vinyl if you want something nicer out front. One of our jobs was a subdivision entrance with vinyl panels and brick columns.",
         ],
       },
       {
         h2: "What goes into a commercial fence price?",
         body: [
-          "The footage, the height and material, the gates and whether you want slats. Tearing out and hauling off an old fence, permits, and travel on long jobs are extra charges, and they're listed on the estimate so nothing comes as a surprise.",
+          "Footage, height, material, gates and slats. Tearing out and hauling off an old fence, permits, and travel on long jobs are extra charges.",
         ],
       },
     ],
     included: [
       "Commercial chain link fence",
-      "Privacy slats to screen equipment and storage",
-      "Gates built to match the fence",
+      "Privacy slats to hide equipment and storage",
+      "Gates for the fence",
       "Wood, aluminum and vinyl fencing for businesses",
-      "Old fence tear-out and haul-off (priced separately)",
+      "Removal of an old fence (extra charge)",
       "Free estimate at your property",
     ],
     gallery: [
@@ -210,29 +217,33 @@ export const servicesB: ServicePage[] = [
     faqs: [
       {
         q: "Do you install chain link with privacy slats for businesses?",
-        a: "Yes. Slatted chain link screens equipment and storage from view while keeping the strength of chain link. Ask about slat options at the estimate.",
+        a: "Yes. Slats block most of the view through the fence.",
       },
       {
         q: "What does a commercial fence cost?",
-        a: "It depends on footage, height, material, gates and slats. We give a free estimate with a price for the whole job. Old fence removal, permits and travel on long jobs are extra.",
+        a: "It comes down to how much fence, how tall, what material, and whether you want gates or slats. The estimate is free. Old fence removal, permits and travel are extra charges.",
       },
       {
         q: "Do you handle permits?",
-        a: "Yes. Permits are a separate charge on the estimate. Requirements vary by parish and city, and we go over that with you when we look at the job.",
+        a: "We do, as a separate charge. What's required is different from one parish or city to the next, so we talk about it when we see the job.",
       },
       {
         q: "Can you put an automatic gate on our lot?",
-        a: "We build the gate. Openers are installed by a separate licensed gate company that we bring in and coordinate with.",
+        a: "We can build the gate. For the opener, we bring in a separate licensed gate company.",
       },
       {
         q: "Do you work outside Thibodaux and Houma?",
-        a: "Yes. We work across Lafourche, Terrebonne and Assumption parishes and the surrounding areas.",
+        a: "We work in all three parishes we cover, Lafourche, Terrebonne and Assumption, and the areas around them.",
       },
     ],
     related: ["chain-link-fence", "automatic-gates", "farm-ranch-fencing"],
     serviceType: "Commercial fence installation",
     cardBlurb:
-      "Commercial chain link, privacy-slat enclosures and gates for businesses across Lafourche, Terrebonne and Assumption.",
+      "Commercial chain link, privacy slats and gates for businesses around Thibodaux and Houma.",
+    cta: {
+      heading: "Fence your business",
+      text: "We’re open Monday through Saturday, 7:30 to 6. Call and we’ll set a time to see the property.",
+    },
   },
 
   // ---------------------------------------------------------------------------
@@ -248,8 +259,8 @@ export const servicesB: ServicePage[] = [
     h1: "Farm & Ranch Fencing in South Louisiana",
     eyebrow: "Barbed wire & ranch fence · Lafourche, Terrebonne & Assumption",
     intro: [
-      "Esteve's builds barbed wire and ranch fences across Lafourche, Terrebonne and Assumption parishes. The three-rail board fence in our photos, around a pasture beside a brick home, is one example.",
-      "Call (985) 414-0858 and we'll come out to the property, measure, talk through what you need and send a price for the whole job.",
+      "Esteve's builds barbed wire and ranch fences across Lafourche, Terrebonne and Assumption parishes.",
+      "Give us a call at (985) 414-0858. We'll come out to the land, measure and talk about what you need.",
     ],
     heroImage: "/images/projects/farm-ranch/ranch-3-rail-board-fence-pasture.jpg",
     heroAlt: "Three-rail wood board fence around an open pasture beside a brick home",
@@ -257,22 +268,22 @@ export const servicesB: ServicePage[] = [
       {
         h2: "Barbed wire or board fence: which do I need?",
         body: [
-          "It comes down to what you keep and how you want it to look. Barbed wire is affordable over long distances and is a common choice for cattle pasture.",
-          "Board fence is the choice when the fence faces the road or the house and looks matter. It's also often picked for horses, since horses can get cut on barbed wire. If you have another kind of farm fence in mind, bring it up at the estimate.",
+          "Barbed wire is the cheaper way to fence a lot of ground, and people use it a lot for cattle.",
+          "Board fence is what most people pick along the road or near the house, where looks count. It's also common for horses, because horses can get cut on barbed wire. If you have a different farm fence in mind, tell us when we come out.",
         ],
       },
       {
         h2: "What should I know before fencing acreage?",
         body: [
-          "Know where your property lines are. A survey helps when a fence runs along a neighbor's field. It also helps to know about any drainage ditches or servitudes along the line, since those affect where a fence can go.",
-          "Ground here stays wet, and old fence lines often have brush grown into them. If an old fence needs to come out first, tear-out and haul-off is an extra charge, listed on the estimate.",
+          "Know where your property lines are. If the fence runs along a neighbor's field, a survey helps. Ditches or servitudes along the line can also limit where the fence goes.",
+          "The ground down here stays wet, and old fence lines usually have brush grown up in them. If the old fence has to come out first, the tear out and haul off is an extra charge.",
         ],
       },
     ],
     included: [
       "Barbed wire fence",
       "Ranch fence and wood board fence",
-      "Gates built to match the fence",
+      "Walk gates and double gates for the fence line",
       "Old fence tear-out and haul-off (priced separately)",
       "Free estimate at your property",
     ],
@@ -284,29 +295,33 @@ export const servicesB: ServicePage[] = [
     faqs: [
       {
         q: "Do you build barbed wire fence for cattle?",
-        a: "Yes, we build barbed wire fence. Call (985) 414-0858 and we'll set up a time to come out, measure and look at the property.",
+        a: "Yes, barbed wire is one of the fences we build. Call (985) 414-0858 and we'll set up a time to see the property.",
       },
       {
         q: "What affects the price of a pasture fence?",
-        a: "The footage, the type of fence, the number of gates, and how much of the line crosses ditches or wet ground. Old fence removal and travel on long jobs are extra charges.",
+        a: "How many feet, what kind of fence and how many gates. Travel on long jobs is extra.",
       },
       {
         q: "Can you replace an old fence line that has fallen down?",
-        a: "Yes. Tearing out and hauling off the old fence is a separate charge, and we look at the old line during the free estimate.",
+        a: "We can. Taking down and hauling away the old fence is a separate charge, and we'll look at it when we're out there.",
       },
       {
         q: "Is board fence or barbed wire better for horses?",
-        a: "Board fence is usually the safer choice for horses, since they can get cut on barbed wire. It also looks good along the front of a property.",
+        a: "Board fence is the safer pick for horses since barbed wire can cut them. It also looks better along the front of a property.",
       },
       {
         q: "Do you fence land in Assumption Parish?",
-        a: "Yes. We work in Assumption as well as Lafourche and Terrebonne, plus the surrounding areas.",
+        a: "We do. Assumption is part of our area along with Lafourche and Terrebonne, and we go to nearby areas too.",
       },
     ],
     related: ["chain-link-fence", "commercial-fencing", "automatic-gates"],
     serviceType: "Agricultural fence installation",
     cardBlurb:
-      "Barbed wire, ranch and board fence for pasture and acreage across Lafourche, Terrebonne and Assumption.",
+      "Barbed wire, ranch and board fence for pasture and acreage in South Louisiana.",
+    cta: {
+      heading: "Fencing for your land",
+      text: "We’ll come out to the property and talk through barbed wire or ranch fence.",
+    },
   },
 
   // ---------------------------------------------------------------------------
@@ -322,8 +337,8 @@ export const servicesB: ServicePage[] = [
     h1: "Pool Fencing in Thibodaux & Houma",
     eyebrow: "Pool fences · Lafourche, Terrebonne & Assumption",
     intro: [
-      "Esteve's puts up fences around pools. The pool fences in our photos are aluminum, and vinyl is another common choice.",
-      "Pools have barrier rules, and those are set by your parish or city. Check them for your address before you settle on a design, and we'll talk through the layout at your free estimate.",
+      "Esteve's builds fences around pools. The ones in our photos are aluminum, and vinyl is the other common choice.",
+      "Check the pool fence rules for your address before you pick a design. We'll go over the layout with you at the free estimate.",
     ],
     heroImage: "/images/projects/pool/black-aluminum-pool-fence-new-pool.jpg",
     heroAlt: "Black aluminum fence around a new pool and concrete deck",
@@ -331,22 +346,22 @@ export const servicesB: ServicePage[] = [
       {
         h2: "Aluminum or vinyl around a pool?",
         body: [
-          "Aluminum is a popular pick around pools. It doesn't rot or rust, and you can see through it, so you can keep an eye on the pool from the house. It comes in several colors and styles.",
-          "Vinyl gives more privacy and doesn't need painting or staining. Which one fits depends on whether you want to see the pool or screen it.",
+          "Aluminum is a popular choice around pools. It won't rot or rust, and since you can see through it, you can watch the pool from the house. There are different colors and styles to pick from.",
+          "Vinyl gives you more privacy and doesn't need paint or stain. It mostly comes down to whether you want to see the pool or block it from view.",
         ],
       },
       {
         h2: "What rules apply to a pool fence?",
         body: [
-          "That depends on where you live. Pool barrier requirements are set locally, so check with your parish or city permit office for your address. Bring what you find out to the estimate and we'll plan the layout around it.",
-          "We handle permits, and the permit is a separate charge on your estimate.",
+          "Your parish or city permit office has the requirements for your address, so start there. Bring what they tell you to the estimate and we'll lay the fence out to fit.",
+          "We can take care of the permit. It's an extra charge.",
         ],
       },
     ],
     included: [
       "Aluminum fences around pools",
       "Vinyl fences around pools",
-      "Gates built to match the fence",
+      "Pool gates",
       "Permit handling (separate charge)",
       "Free estimate at your property",
     ],
@@ -358,24 +373,28 @@ export const servicesB: ServicePage[] = [
     faqs: [
       {
         q: "What kind of fence is best around a pool?",
-        a: "Aluminum and vinyl are the common choices. Aluminum lets you see the pool and doesn't rust. Vinyl gives privacy and needs little upkeep.",
+        a: "Most people go with aluminum or vinyl. Aluminum you can see through and it won't rust. Vinyl is more private and doesn't take much upkeep.",
       },
       {
         q: "What are the pool fence rules where I live?",
-        a: "Pool barrier rules are set by your parish or city, and the inspector makes the final call. Check the requirements for your address, and we'll go over the layout with you at the estimate.",
+        a: "They vary by address, and the local permit office can tell you what applies to yours.",
       },
       {
         q: "Do you handle the permit?",
-        a: "Yes. Permits are something we handle, listed as a separate charge on your estimate.",
+        a: "Yes, we handle permits. That's an extra charge.",
       },
       {
         q: "What does a pool fence cost?",
-        a: "It depends on the footage, the material and the gates. We come out, measure and send you a price for the whole job as a PDF by text or email.",
+        a: "Price comes from the footage, the material and the number of gates. We measure the yard and send you a number.",
       },
     ],
     related: ["aluminum-fence", "vinyl-fence", "fence-installation"],
     serviceType: "Pool fence installation",
     cardBlurb: "Aluminum and vinyl fences around pools, with gates to match.",
+    cta: {
+      heading: "Fence around a pool",
+      text: "Check your parish’s pool fence rules first, then give us a call.",
+    },
   },
 
   // ---------------------------------------------------------------------------
@@ -391,8 +410,8 @@ export const servicesB: ServicePage[] = [
     h1: "Concrete Patios, Slabs & Driveway Extensions in Thibodaux",
     eyebrow: "Concrete work · Lafourche, Terrebonne & Assumption",
     intro: [
-      "Along with fences, Esteve's pours concrete patios, slabs for sheds and driveway extensions, and does concrete repair.",
-      "If you're already getting a fence, ask about concrete at the same free estimate. We measure, talk it through and send one price for the job.",
+      "We also do concrete work: patios, slabs for sheds, driveway extensions and concrete repair.",
+      "If we're already coming out to look at a fence, ask about concrete while we're there.",
     ],
     heroImage: "/images/projects/concrete/concrete-driveway-extension-new-home.jpg",
     heroAlt: "Concrete driveway extension at a new home",
@@ -400,14 +419,13 @@ export const servicesB: ServicePage[] = [
       {
         h2: "What concrete work do you do?",
         body: [
-          "Four things: patios, slabs for sheds, driveway extensions and concrete repair. A lot of homes come with a small back slab that the owner wants bigger, and a shed needs a flat, solid base to sit on. A driveway extension adds room to park beside the driveway you already have.",
-          "For repairs, what makes sense depends on the damage. We look at it at the free estimate and tell you what we'd recommend.",
+          "Patios, shed slabs, driveway extensions and repairs. With repairs, we have to see the damage first. We'll look at it and tell you what we think should be done.",
         ],
       },
       {
         h2: "Why does concrete crack on soft ground?",
         body: [
-          "South Louisiana soil is mostly clay that swells when it's wet and shrinks when it dries, and concrete on top of moving ground can crack. Control joints are there so that when concrete does crack, the crack tends to follow the joint where it's less noticeable. Nobody can honestly promise concrete will never crack.",
+          "A lot of South Louisiana soil is clay. It swells when it's wet and shrinks when it dries, and concrete sitting on it can crack. Control joints give a crack a place to run where it's harder to notice.",
         ],
       },
     ],
@@ -423,33 +441,35 @@ export const servicesB: ServicePage[] = [
       "/images/projects/concrete/concrete-driveway-widening.jpg",
       "/images/projects/concrete/concrete-slab-carport.jpg",
       "/images/projects/concrete/concrete-patio-new-home-porch.jpg",
-      "/images/projects/concrete/concrete-patio-brick-home.jpg",
-      "/images/projects/concrete/concrete-driveway-extension-new-home.jpg",
     ],
     faqs: [
       {
         q: "Can you extend my existing back patio?",
-        a: "Yes, patios are part of our concrete work. New concrete usually looks a little different in color from an older slab at first.",
+        a: "Yes. Just know the new concrete will probably be a slightly different color than the old slab for a while.",
       },
       {
         q: "Do you pour slabs for sheds?",
-        a: "Yes. Have the shed size handy, or the shed maker's requirements if it came with any, and we'll go over it at the free estimate.",
+        a: "We do. Have the shed size ready, plus anything the shed maker says it needs.",
       },
       {
         q: "Can you widen my driveway?",
-        a: "Yes, driveway extensions are one of the concrete jobs we do. We measure at the estimate and give you a price.",
+        a: "Driveway extensions are one of the concrete jobs we take on. We measure the area you want added and price it from there.",
       },
       {
         q: "What kind of concrete repair do you do?",
-        a: "It depends on the damage. Call (985) 414-0858 and we'll come look at it during a free estimate.",
+        a: "We'd have to see it. Call (985) 414-0858 and we'll come take a look for free.",
       },
       {
         q: "What does concrete work cost?",
-        a: "It depends on the size of the job and the site. We come out, measure and send you a price for the whole job as a PDF by text or email.",
+        a: "Size and the site are the big factors. Once we've measured, you'll get a price.",
       },
     ],
     related: ["automatic-gates", "brick-columns", "fence-installation"],
     serviceType: "Concrete contractor",
     cardBlurb: "Concrete patios, shed slabs, driveway extensions and concrete repair.",
+    cta: {
+      heading: "Patios, slabs and extensions",
+      text: "If you need a fence too, we can look at both on the same trip.",
+    },
   },
 ]

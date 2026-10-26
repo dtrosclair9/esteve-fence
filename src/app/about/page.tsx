@@ -25,7 +25,7 @@ const faqs: FAQ[] = [
   },
   {
     q: 'Do you handle the gate, column and concrete work too?',
-    a: 'Yes. Fences, gates, brick columns and concrete patios, slabs and driveway extensions are all work we do, so one estimate can cover the whole job. For automatic gate openers, we bring in a licensed gate company.',
+    a: 'Yes. Gates, brick columns and concrete can all go on the same quote as the fence.',
   },
   {
     q: 'Are you hiring?',
@@ -69,8 +69,7 @@ export default function AboutPage() {
               </p>
               <p>
                 We also build brick columns, walk gates and double gates to match your fence, and we do concrete patios,
-                shed slabs, driveway extensions and concrete repair. All of it can go on one estimate. For automatic gate
-                openers, we bring in a licensed gate company.
+                shed slabs, driveway extensions and concrete repair. All of it can go on one estimate.
               </p>
             </div>
           </div>
@@ -93,15 +92,15 @@ export default function AboutPage() {
             {[
               {
                 h: 'A free estimate at your property',
-                p: 'We come out, measure, and go over the details with you, like materials, style and gates.',
+                p: 'We meet you at the property, measure, and talk through materials, style and gates.',
               },
               {
-                h: 'One price for the whole job',
-                p: 'Every job is priced on its own. You get a price for your entire job, sent to you by text or email.',
+                h: 'A price for your entire job',
+                p: 'Each job is quoted on its own, and the price comes to you as a PDF by text or email.',
               },
               {
-                h: 'Old fence and permits handled',
-                p: 'If an old fence has to come out or your address needs a permit, we can take care of it as part of the job.',
+                h: 'Old fence removal and permits',
+                p: 'We can tear out the old fence and take care of the permit. Both are extra, along with travel on long jobs.',
               },
             ].map((c) => (
               <div key={c.h} className="border-t-[3px] border-ink pt-5">

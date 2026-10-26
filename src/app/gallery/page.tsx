@@ -24,14 +24,14 @@ const GROUPS: { key: string; label: string }[] = [
   { key: 'commercial', label: 'Commercial' },
   { key: 'farm-ranch', label: 'Farm & ranch' },
   { key: 'concrete', label: 'Concrete' },
-  { key: 'marine', label: 'Marine & industrial' },
 ]
 
 const cat = (src: string) => src.split('/')[3]
 
 export default function GalleryPage() {
   // Brand shots and yard-sign photos show the pre-rebrand logo, so they stay out.
-  const photos = allPhotos.filter((p) => cat(p.src) !== 'brand' && !p.src.includes('yard-sign'))
+  // Marine helideck netting is held back until Ross confirms it's a service he wants shown.
+  const photos = allPhotos.filter((p) => cat(p.src) !== 'brand' && cat(p.src) !== 'marine' && !p.src.includes('yard-sign'))
   return (
     <>
       <JsonLd

@@ -49,31 +49,31 @@ const steps = [
 const faqs: FAQ[] = [
   {
     q: 'Do you give free fence estimates?',
-    a: "Yes. Estimates are free. We come out to the property, measure, and go over the details with you, then send you a price for the whole job.",
+    a: "Yes. We come out, measure, and talk through what you want. There is no charge for that.",
   },
   {
     q: 'What areas does Esteve’s Fence Company serve?',
-    a: 'We are based in Thibodaux and work across Lafourche, Terrebonne and Assumption parishes and the surrounding areas. That includes Houma, Raceland, Gray, Bayou Blue, Schriever, Lockport, Labadieville and Napoleonville. If you are not sure we cover your area, call and ask.',
+    a: 'We are based in Thibodaux. We work in Lafourche, Terrebonne and Assumption, in places like Houma, Raceland, Gray, Bayou Blue, Lockport, Labadieville and Napoleonville. Farther out, give us a call.',
   },
   {
     q: 'How much does a new fence cost?',
-    a: 'It depends on the length of the fence, the material, the height, the number of gates, and whether an old fence has to come out first. Every job is priced on its own, so we give you a number after we come out and measure.',
+    a: 'Length, material, height, number of gates, and whether an old fence has to be torn out all change the price. Every job is quoted on its own, so you get a real number after we measure.',
   },
   {
     q: 'Which fence holds up best in South Louisiana weather?',
-    a: 'Aluminum and vinyl do not rot, so they handle the humidity with the least upkeep. Wood is still the most popular privacy fence around here and lasts longer when it is sealed or stained. We can go over the options at your estimate.',
+    a: 'Aluminum and vinyl do not rot, so they handle the humidity with the least upkeep. Wood lasts longer if you seal or stain it.',
   },
   {
     q: 'Do you install automatic driveway gates?',
-    a: 'We build the gate and can build brick columns for it. The opener itself is installed by a separate licensed gate company that we bring in.',
+    a: 'We build the gate, and the columns if you want them. For the opener we bring in a licensed gate company.',
   },
   {
     q: 'What concrete work do you do?',
-    a: 'Patios, slabs for sheds, driveway extensions and concrete repair. These can go on the same estimate as a fence.',
+    a: 'Patios, shed slabs, driveway extensions and concrete repair. If you need a fence too, we can price both together.',
   },
   {
     q: 'Do you take commercial fence jobs?',
-    a: 'Yes. We build chain link and other fencing for businesses. Call us with the address and what you need fenced in.',
+    a: 'Yes, mostly chain link. Call with the address and what you need fenced in.',
   },
   {
     q: 'Do you build fences for farms and pastures?',
@@ -81,11 +81,11 @@ const faqs: FAQ[] = [
   },
   {
     q: 'Can you add a gate to the fence I already have?',
-    a: 'Usually, yes. We build walk gates and double gates to match an existing fence. We look at the existing posts during the estimate.',
+    a: 'Most of the time. We’ll match the gate to what you have.',
   },
   {
     q: 'Do you remove the old fence?',
-    a: 'Yes. Tearing out and hauling off an old fence can be added to the job, and it is listed on your estimate.',
+    a: 'Yes. Tear-out and haul-off is extra, and we price it in when we quote the job.',
   },
   {
     q: 'What are your hours?',
@@ -104,15 +104,15 @@ export default function HomePage() {
 
       <PageHero
         size="home"
-        eyebrow="Based in Thibodaux, LA · Serving surrounding areas"
-        title="Fence Company Serving Lafourche, Terrebonne & Assumption Parishes"
-        intro="Esteve’s Fence Company builds wood, aluminum, vinyl, chain link, barbed wire and ranch fences, plus brick columns and concrete. Automatic gates are available too. We are locally owned in Thibodaux, and estimates are free."
+        eyebrow="Locally owned · Based in Thibodaux, LA"
+        title="Fence Company in Lafourche, Terrebonne & Assumption"
+        intro="Fences, gates, brick columns and concrete for homes, farms and businesses. Estimates are free."
         image="/images/projects/wood/cedar-board-on-board-fence-columns-long-run.jpg"
         imageAlt="Long run of stained board-on-board wood fence with white columns across a large lot"
         imagePosition="object-[60%_50%]"
       >
         <p className="mt-8 border-t border-line pt-5 text-[14px] font-medium text-muted">
-          Wood · Aluminum · Vinyl · Chain link · Ranch · Brick columns · Concrete · Gates
+          Wood · Aluminum · Vinyl · Chain link · Barbed wire · Ranch · Brick columns · Concrete
         </p>
       </PageHero>
 
@@ -178,8 +178,7 @@ export default function HomePage() {
                   with wood, vinyl or aluminum panels between them.
                 </p>
                 <p>
-                  We also build walk gates and double driveway gates to match your fence. If you want an automatic opener,
-                  we bring in a licensed gate company for that part.
+                  We also build walk gates and double driveway gates to match the fence.
                 </p>
               </div>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -208,12 +207,11 @@ export default function HomePage() {
             <h2 id="about-h" className="mt-4 text-[30px] leading-[1.12] md:text-[40px]">A local fence company based in Thibodaux</h2>
             <div className="prose-body mt-6">
               <p>
-                Esteve’s Fence Company is locally owned and based in Thibodaux. We build fences for homes, businesses and
-                farms across Lafourche, Terrebonne and Assumption parishes.
+                Esteve’s Fence Company is owned by Ross Esteve and based in Thibodaux. We build fences for homes,
+                businesses and farms.
               </p>
               <p>
-                Every job is priced on its own. We come out, measure, talk through what you want, and send you a price
-                for the whole job.
+                Every job gets measured and quoted on its own.
               </p>
             </div>
             <Link href="/about" className="link mt-6 inline-block text-[17px]">More about Esteve’s</Link>
@@ -270,10 +268,10 @@ export default function HomePage() {
         <div className="wrap grid gap-10 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <p className="label">Service area</p>
-            <h2 id="area-h" className="mt-4 text-[30px] leading-[1.12] md:text-[40px]">Lafourche, Terrebonne, Assumption and surrounding areas</h2>
+            <h2 id="area-h" className="mt-4 text-[30px] leading-[1.12] md:text-[40px]">Where we work</h2>
             <p className="mt-5 text-[17px] leading-[1.65] text-ink/90">
-              We are based in Thibodaux and work throughout Lafourche, Terrebonne and Assumption parishes and the
-              surrounding areas. If you do not see your town listed, call and ask.
+              Lafourche, Terrebonne and Assumption parishes, plus the areas around them. If your town isn’t listed,
+              call and ask.
             </p>
             <Link href="/service-area" className="link mt-6 inline-block text-[17px]">Every town we cover</Link>
           </div>

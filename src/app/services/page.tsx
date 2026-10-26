@@ -20,19 +20,19 @@ export const metadata: Metadata = pageMeta({
 const faqs: FAQ[] = [
   {
     q: 'Which fence material should I pick?',
-    a: 'Start with what the fence has to do. Privacy usually means wood or vinyl, aluminum is a common pick around pools and front yards, and chain link is the budget option for keeping a dog in. We go over the options at the estimate.',
+    a: 'Start with what the fence is for. Privacy usually means wood or vinyl. Aluminum is common around pools and front yards. Chain link works for keeping a dog in.',
   },
   {
     q: 'Do you handle small jobs like one gate or a short section?',
-    a: 'Yes. Call and describe the job. Smaller jobs are priced to cover the time it takes to get a crew out there.',
+    a: 'Yes. Call and describe the job.',
   },
   {
     q: 'Can one estimate cover a fence, a gate and concrete?',
-    a: 'Yes. Tell us everything you are thinking about and we price it together as one job.',
+    a: 'Yes. Tell us everything you have in mind and we quote it together.',
   },
   {
     q: 'Do you work outside Lafourche, Terrebonne and Assumption?',
-    a: 'We work across Lafourche, Terrebonne and Assumption parishes and the surrounding areas. For longer drives, travel may be added to the price, so call and ask.',
+    a: 'Sometimes. Longer drives can add a travel charge, so call and tell us where the job is.',
   },
 ]
 
@@ -70,7 +70,7 @@ export default function ServicesIndexPage() {
             <p className="label">By city</p>
             <h2 id="city-h" className="mt-4 text-[30px] md:text-[40px]">Houma and Thibodaux pages</h2>
             <p className="mt-4 text-[17px] leading-[1.65] text-ink/90">
-              Permits, soil and lot types change between the two parishes. These pages cover the local details.
+              Pages for our two biggest towns.
             </p>
           </div>
           <ul className="grid gap-4 sm:grid-cols-2 lg:col-span-7">

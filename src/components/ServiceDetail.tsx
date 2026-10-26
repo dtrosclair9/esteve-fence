@@ -23,6 +23,7 @@ type Props = {
   related: ServicePage[]
   /** Area callout: links to city pages and/or a list of nearby towns. */
   area: { heading: string; text: string; links: { label: string; href: string }[]; towns: string[] }
+  cta?: { heading: string; text: string }
 }
 
 export default function ServiceDetail(p: Props) {
@@ -124,7 +125,7 @@ export default function ServiceDetail(p: Props) {
         </section>
       )}
 
-      <CtaBand />
+      <CtaBand heading={p.cta?.heading} text={p.cta?.text} />
     </>
   )
 }

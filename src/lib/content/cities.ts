@@ -13,8 +13,8 @@ export const cityPages: CityPage[] = [
     h1: "Fence Installation in Houma, LA",
     eyebrow: "Terrebonne Parish · Residential and commercial",
     intro: [
-      "Esteve's Fence Company installs fences in Houma for homeowners and businesses. We're based in Thibodaux and work across Lafourche, Terrebonne and Assumption parishes, so Houma is a regular part of our area, not a stretch.",
-      "We put up wood, vinyl, aluminum, chain link, barbed wire and ranch fences, plus walk gates and double gates built to match. Every job starts with a free estimate at your property.",
+      "Esteve's Fence Company builds fences in Houma for homes and businesses. We're based up the road in Thibodaux and work all over Lafourche, Terrebonne and Assumption parishes, and Houma is part of our regular area.",
+      "We do wood, vinyl, aluminum, chain link, barbed wire and ranch fences, and we build the gates to go with them. The estimate is free and we do it at your property.",
     ],
     heroImage: "/images/projects/wood/wood-privacy-fence-wide-backyard.jpg",
     heroAlt: "Wood privacy fence enclosing a wide backyard in Terrebonne Parish under a cloudy sky",
@@ -22,32 +22,32 @@ export const cityPages: CityPage[] = [
       {
         h2: "Which fence holds up best to wind in Houma?",
         body: [
-          "Open styles like aluminum and chain link usually handle wind better than solid privacy fences, because air passes through them. Houma is the seat of Terrebonne Parish and sits close to the Gulf, so hurricane season is something every homeowner here thinks about, and Hurricane Ida in 2021 left a lot of fences on the ground.",
-          "That doesn't mean you have to give up privacy. A solid wood or vinyl fence is still the most common pick for a backyard. It just catches more wind, so it's worth talking through the material, height and layout for your lot at the estimate.",
+          "Open styles like aluminum and chain link usually do better in wind than a solid fence, because the air goes through them. Houma is close to the Gulf, so wind is a real concern here during hurricane season.",
+          "You don't have to give up privacy over it. Wood and vinyl privacy fences are still what most people want in a backyard. They just take more wind, so we talk about material, height and layout for your lot when we measure.",
         ],
       },
       {
         h2: "Picking a material for low, wet ground",
         body: [
-          "A lot of Houma is low and close to water, with Bayou Terrebonne running through town and plenty of yards that stay soggy after a hard rain. Add the humidity and it's rough on anything that can rot or rust.",
-          "Wood looks great and costs less up front, but it needs to be sealed or stained to last in this climate. Vinyl doesn't rot and only needs an occasional wash. Aluminum doesn't rot or rust and works well around pools. Chain link is the economical option when you just need to keep pets or kids in. Vinyl and aluminum come in several colors and styles, and we can go over the options when we come out.",
+          "Plenty of Houma yards sit low and hold water after a hard rain, and the humidity doesn't let up much. That's tough on anything that can rot or rust.",
+          "Wood costs less up front, but it needs to be sealed or stained to last down here. Vinyl doesn't rot and just needs a wash now and then. Aluminum won't rot or rust. Chain link costs the least. Vinyl and aluminum both come in different colors and styles.",
         ],
       },
       {
         h2: "Homes and businesses",
         body: [
-          "We build backyard privacy fences, pool fences and front-yard fences, and we also do commercial chain link for businesses. If you have a house and a shop, one call covers both. Our commercial fencing in Houma page has more on that side of the work.",
-          "If you want brick columns, a patio or a slab for a shed added to the same job, we do those too and can price everything together.",
+          "We build backyard privacy fences, pool fences and front-yard fences. For businesses we put up commercial chain link, and there's more about that on our commercial fencing in Houma page.",
+          "We also build brick columns and pour patios and shed slabs. If you want one of those along with the fence, we can price it all at once.",
         ],
       },
     ],
     included: [
-      "Free estimate at your Houma property, where we measure and go over the details",
-      "Wood, vinyl, aluminum, chain link, barbed wire and ranch fences",
-      "Walk gates and double gates built to match the fence",
-      "Brick columns if you want them",
-      "Old fence tear-out and haul-off (priced separately)",
-      "Permits handled when the job needs one (priced separately)",
+      "Free estimate at your Houma property",
+      "Wood, vinyl, aluminum, chain link, barbed wire and ranch fence",
+      "Gates to match the fence",
+      "Brick columns, if you want them",
+      "Taking out the old fence, if there is one (extra charge)",
+      "Permits when the job needs one (extra charge)",
     ],
     nearby: ["Bayou Cane", "Bayou Blue", "Gray", "Schriever", "Bourg", "Montegut", "Chauvin", "Dulac"],
     gallery: [
@@ -58,21 +58,25 @@ export const cityPages: CityPage[] = [
     faqs: [
       {
         q: "Do you install fences in Houma or just Thibodaux?",
-        a: "Both. We're based in Thibodaux and work all over Lafourche, Terrebonne and Assumption parishes. Houma is part of our regular service area, and the estimate happens at your property.",
+        a: "Both. We're based in Thibodaux, and Houma is part of our regular service area.",
       },
       {
         q: "What fence is best for a Houma yard that stays wet?",
-        a: "Vinyl, aluminum and chain link don't rot, so they're good choices for wet ground. Wood works too, but it needs to be sealed or stained to hold up. We can talk through what fits your yard and budget at the free estimate.",
+        a: "Vinyl, aluminum and chain link won't rot, so they do well on wet ground. Wood works too if you keep it sealed or stained.",
       },
       {
         q: "Can you replace just my side of a shared fence?",
-        a: "Often, yes. It helps to talk with your neighbor first about the property line. If the line is unclear, a survey is the safest place to start. Call us at (985) 414-0858 and we'll go over your situation.",
+        a: "Talk to your neighbor before anything else, and get a survey if nobody's sure where the property line is. After that, call us at (985) 414-0858 and we can go over your options.",
       },
       {
         q: "How do I get a price for a fence in Houma?",
-        a: "Call (985) 414-0858 to set up a free estimate. We come out, measure, and talk through what you want. You get a price for the whole job, sent as a PDF by text or email.",
+        a: "Call (985) 414-0858 and we'll set a time to come out. We measure, go over what you want, and send you a price for the whole job.",
       },
     ],
+    cta: {
+      heading: "Houma backyard fences",
+      text: "Tell us what you have in mind and we’ll set up a time to measure the yard.",
+    },
   },
 
   // 2. Fence installation, Thibodaux
@@ -87,8 +91,8 @@ export const cityPages: CityPage[] = [
     h1: "Fence Installation in Thibodaux, LA",
     eyebrow: "Our home base · Lafourche Parish",
     intro: [
-      "Thibodaux is home for Esteve's Fence Company. We're locally owned and based here, and we work across Lafourche, Terrebonne and Assumption parishes.",
-      "We install wood, vinyl, aluminum, chain link, barbed wire and ranch fences for homes and businesses, along with matching gates and brick columns. Estimates are free and done at your property.",
+      "We're locally owned and based in Thibodaux. We also work in Terrebonne and Assumption parishes and the rest of Lafourche.",
+      "We build wood, vinyl, aluminum, chain link, barbed wire and ranch fences for homes and businesses, plus gates and brick columns. Estimates are free, and we come to you.",
     ],
     heroImage: "/images/projects/brick-columns/wood-privacy-fence-brick-column-trees.jpg",
     heroAlt: "Wood privacy fence tied into a brick column and built around mature crepe myrtles in Thibodaux",
@@ -96,32 +100,31 @@ export const cityPages: CityPage[] = [
       {
         h2: "Fences for older lots and big trees",
         body: [
-          "Thibodaux is the parish seat of Lafourche and one of the older towns along Bayou Lafourche. The streets near downtown and around Nicholls State University have older homes and big trees, and those lots don't always line up neatly.",
-          "If there's a tree, an old fence or a question about the property line, that's something to point out when we come out for the estimate. If the line itself is in doubt, a survey settles it before any fence goes up.",
+          "Some of the older neighborhoods in Thibodaux have big trees and lot lines that don't run as straight as you'd think.",
+          "Show us the tree, the old fence or the spot you're unsure about when we come out to measure. If nobody knows exactly where the line is, get a survey done before the fence goes in.",
         ],
       },
       {
         h2: "Back fences along open fields",
         body: [
-          "Cane fields surround Thibodaux, and homes on the edge of town can have open field right behind them. With nothing to slow the wind down, a long solid fence there takes more of a beating than one between two houses.",
-          "Some owners still want full privacy and go with wood or vinyl. Others pick a ranch fence or another open style so they keep the view of the field. On bigger pieces of land, ranch and barbed wire fences are common. We can go over the trade-offs at your property.",
+          "A lot of houses on the edge of town back right up to cane fields. Nothing out there blocks the wind, so a solid fence on that side catches a lot more of it.",
+          "Some people still want full privacy back there and go with wood or vinyl. Others want a ranch fence or something open so they can still see the field. On bigger pieces of land, ranch and barbed wire fence are the usual choice. We can go over the pros and cons when we're out there.",
         ],
       },
       {
         h2: "Brick columns and matching gates",
         body: [
-          "Brick columns give a fence a finished, permanent look, and they're a popular choice around Thibodaux. We build them with wood privacy fence, cedar lattice or vinyl panels between them.",
-          "Walk gates and double gates are built to match the fence. If you want an automatic opener on a driveway gate, we don't install openers ourselves. We bring in a separate licensed gate company for that part.",
+          "Brick columns make a fence look permanent. We build them with wood privacy fence, cedar lattice or vinyl panels in between.",
+          "We build gates to match the fence.",
         ],
       },
     ],
     included: [
-      "Free estimate at your Thibodaux property, with a price for the whole job",
-      "Wood, vinyl, aluminum, chain link, barbed wire and ranch fences",
-      "Walk gates and double gates built to match",
-      "Brick columns",
-      "Old fence tear-out and haul-off (priced separately)",
-      "Proposal sent as a PDF by text or email",
+      "Free estimate at your Thibodaux property",
+      "Wood, aluminum, vinyl and chain link, plus barbed wire and ranch fence for land",
+      "A gate by the house, or a double gate across the driveway",
+      "Brick columns with wood, lattice or vinyl between them",
+      "Permits when needed (billed separately)",
     ],
     nearby: ["Schriever", "Chackbay", "Raceland", "Labadieville", "Lockport", "Kraemer", "Gray"],
     gallery: [
@@ -132,21 +135,25 @@ export const cityPages: CityPage[] = [
     faqs: [
       {
         q: "Are you actually based in Thibodaux?",
-        a: "Yes. Esteve's Fence Company is locally owned and based in Thibodaux. We also work throughout Lafourche, Terrebonne and Assumption parishes.",
+        a: "We are. Esteve's is locally owned and based right here in Thibodaux.",
       },
       {
         q: "Do you handle the permit for a fence in Thibodaux?",
-        a: "Yes, we handle permits when a job needs one. That's billed separately from the fence. We'll go over it at your free estimate.",
+        a: "When a job needs one, we take care of it. The permit is an extra charge on top of the fence.",
       },
       {
         q: "Can you put an automatic opener on my gate?",
-        a: "We build the gate, but we don't install openers. When a customer wants one, we bring in a separate licensed gate company for the opener.",
+        a: "No. We build the gate and bring in a separate licensed gate company for the opener.",
       },
       {
         q: "What are your hours?",
-        a: "Monday through Saturday, 7:30am to 6pm. Call (985) 414-0858 to set up a free estimate.",
+        a: "Monday through Saturday, 7:30am to 6pm. You can reach us at (985) 414-0858.",
       },
     ],
+    cta: {
+      heading: "We’re right here in Thibodaux",
+      text: "Call or send the form and we’ll set up a time to come measure.",
+    },
   },
 
   // 3. Fence repair, Houma
@@ -161,8 +168,8 @@ export const cityPages: CityPage[] = [
     h1: "Fence Repair in Houma, LA",
     eyebrow: "Repairs · Terrebonne Parish",
     intro: [
-      "Esteve's Fence Company repairs fences in Houma and the rest of Terrebonne Parish. We're based in Thibodaux and work across Lafourche, Terrebonne and Assumption parishes.",
-      "Houma gets its share of hard weather, and soft ground and humidity wear on a fence even in a quiet year. Some fences just need a few sections fixed. Others are past saving. We'll come look and give you a price.",
+      "Esteve's Fence Company is based in Thibodaux and does fence repair in Houma and around Terrebonne Parish.",
+      "Storms do plenty of damage down here, but soft ground and humidity wear a fence out even in a calm year. Some fences need a few sections replaced and some are too far gone to fix. We'll come look at yours and give you a price.",
     ],
     heroImage: "/images/projects/wood/wood-privacy-fence-gate-brick-home.jpg",
     heroAlt: "Wood privacy fence and walk gate beside a brick home with green shutters",
@@ -170,24 +177,23 @@ export const cityPages: CityPage[] = [
       {
         h2: "What should I check on my fence after a storm?",
         body: [
-          "Start with the posts. Push on a few near the top. If one moves at the ground or is cracked at the base, that's a bigger repair than a loose board. Then look for boards, pickets or rails knocked loose, and anything leaning toward a neighbor's yard, a pool or the street.",
-          "If you have a pool, close or block off any gap in the fence right away, even temporarily. If you plan to file with your insurance, take photos of the whole fence line and the damaged spots before anything gets cleaned up. The claim itself is between you and your insurer.",
+          "Look at the posts first. Push on a few near the top. A post that moves at the ground or is cracked at the bottom is a bigger fix than a loose board. After that, look for boards, pickets or rails that got knocked loose, and anything leaning toward a neighbor, a pool or the street.",
+          "If there's a pool, block off any opening right away, even if it's temporary. If you're going through insurance, take pictures of the whole fence line and the damage before anything gets cleaned up.",
         ],
       },
       {
         h2: "Repair or replace?",
         body: [
-          "Repair usually makes sense when the damage is limited to a few sections and the rest of the fence is in good shape. When most of the fence is rotted or leaning, or it was already old before the storm, replacing it can be the better use of your money.",
-          "New boards next to weathered ones will look different for a while, too. At the estimate we'll tell you what we see and can price both a repair and a replacement so you can decide.",
+          "If the damage is in a few spots and the rest of the fence is solid, fixing it usually makes sense. If most of it is rotten or leaning, or it was old before the storm hit, replacing it may make more sense.",
+          "Keep in mind new boards won't match weathered ones for a while. We'll tell you what we see and can price it both ways so you can choose.",
         ],
       },
     ],
     included: [
-      "Free estimate at your Houma property",
-      "Repairs to wood, vinyl, aluminum, chain link and ranch fences",
-      "Storm-damaged and leaning sections",
-      "Gate repairs and replacement gates built to match",
-      "Removal and haul-off of damaged fence (priced separately)",
+      "We come look at the damage for free",
+      "Fence repair for homes and businesses",
+      "Leaning and storm-damaged sections",
+      "Hauling off the damaged fence (extra charge)",
     ],
     nearby: ["Bayou Cane", "Bayou Blue", "Gray", "Bourg", "Montegut", "Chauvin", "Schriever"],
     gallery: [
@@ -198,21 +204,25 @@ export const cityPages: CityPage[] = [
     faqs: [
       {
         q: "Can you fix just a few sections of my fence?",
-        a: "Yes. If the rest of the fence is in good shape, there's no reason to tear it all out. We'll look at it at the free estimate and tell you what we see.",
+        a: "We can. If the rest of it's in good shape, there's no reason to replace the whole thing. We'll take a look and let you know.",
       },
       {
         q: "Do you repair fences you didn't build?",
-        a: "Yes. Call (985) 414-0858 and tell us what's going on, and we'll set up a time to come look.",
+        a: "Sure. Call (985) 414-0858, tell us what happened, and we'll set up a time to come by.",
       },
       {
         q: "Can a sagging gate be fixed?",
-        a: "Often it can. Sometimes a new gate built to match the fence is the better answer. We'll tell you which at the estimate.",
+        a: "A lot of the time it can. Other times a new gate is the better call. You'll know which after we see it.",
       },
       {
         q: "Will you deal with my insurance company?",
-        a: "We give you a price for the repair. The claim is between you and your insurer, so take your own photos of the damage before anything is cleaned up.",
+        a: "The claim itself is between you and your insurance company. What we can do is look at the fence and give you a price for the repair.",
       },
     ],
+    cta: {
+      heading: "Fence down after a storm?",
+      text: "Tell us what broke. We’ll come look at it and price the repair.",
+    },
   },
 
   // 4. Commercial fencing, Houma
@@ -227,8 +237,8 @@ export const cityPages: CityPage[] = [
     h1: "Commercial Fencing in Houma, LA",
     eyebrow: "Commercial · Terrebonne Parish",
     intro: [
-      "Esteve's Fence Company installs commercial chain link fence in Houma and across Terrebonne Parish. We're based in Thibodaux and work throughout Lafourche, Terrebonne and Assumption parishes.",
-      "Houma's economy runs heavily on oil and gas service, marine work and the businesses around them, and plenty of those sites need fence. We'll come out, measure, and give you a price for the whole job.",
+      "Esteve's Fence Company puts up commercial chain link in Houma and around Terrebonne Parish. We're based in Thibodaux.",
+      "Shops, yards and lots need fence for all kinds of reasons. We'll measure the site and give you a price.",
     ],
     heroImage: "/images/projects/commercial/commercial-chain-link-equipment-enclosure.jpg",
     heroAlt: "Chain link enclosure with privacy slats screening equipment behind a commercial building",
@@ -236,24 +246,24 @@ export const cityPages: CityPage[] = [
       {
         h2: "Why do so many businesses use chain link?",
         body: [
-          "It's the most economical way to fence a large area, it holds up to daily use, and it's easy to see through when you want to keep an eye on what's inside. For a back lot, a storage area or a perimeter, it's usually the first thing businesses look at.",
-          "Humidity and wet ground are hard on bare steel in Houma, which is one reason galvanized and coated chain link are common here.",
+          "It's the cheapest way to fence in a big area, it takes daily use, and you can see through it to keep an eye on what's inside. For a back lot, a storage yard or a property line, it's usually where businesses start.",
+          "Bare steel doesn't do well with Houma's humidity and wet ground, so galvanized or coated chain link is what you'll usually see here.",
         ],
       },
       {
         h2: "Screening with privacy slats",
         body: [
-          "When you don't want people looking in, privacy slats woven into the chain link block most of the view. They're a common way to screen equipment, dumpsters, storage and work areas behind a building.",
-          "Walk gates and double gates can be built into the fence wherever you need them, and we can talk through the layout at the estimate.",
+          "Privacy slats woven through the chain link block most of the view in. Businesses use them to hide equipment, dumpsters, storage and work areas behind the building.",
+          "Gates for people and for trucks can go wherever they make sense on the lot. We'll work out the layout with you on site.",
         ],
       },
     ],
     included: [
-      "Free on-site estimate with a price for the whole job",
+      "Free estimate at your site",
       "Commercial chain link fence",
-      "Privacy slats for screening equipment, dumpsters and storage",
-      "Walk gates and double gates",
-      "Old fence tear-out and haul-off (priced separately)",
+      "Privacy slats to screen equipment, dumpsters and storage",
+      "Walk gates and double gates in the chain link",
+      "Permits when the job calls for one (extra charge)",
     ],
     nearby: ["Gray", "Bayou Cane", "Schriever", "Bourg", "Dulac", "Chauvin", "Raceland", "Thibodaux"],
     gallery: [
@@ -264,16 +274,20 @@ export const cityPages: CityPage[] = [
     faqs: [
       {
         q: "Do you do commercial fencing in Houma?",
-        a: "Yes. We install commercial chain link fence in Houma and across Lafourche, Terrebonne and Assumption parishes. Call (985) 414-0858 to set up a free estimate.",
+        a: "We do. We install commercial chain link fence in Houma and the towns around it. Call (985) 414-0858 and we'll come take a look at the property.",
       },
       {
         q: "Can you add privacy slats to the chain link we already have?",
-        a: "Sometimes, depending on the shape the existing fence is in. We'd need to see it first, so that's something we look at during the free estimate.",
+        a: "Sometimes. It depends on what shape the fence is in, so we'd have to see it first.",
       },
       {
         q: "Can you put in gates for trucks and foot traffic?",
-        a: "We build walk gates and double gates into chain link fence. We don't install automatic gate openers. If you need one, we bring in a separate licensed gate company for that part.",
+        a: "We build walk gates and double gates into chain link. We don't do automatic openers. If you want one, we bring in a separate licensed gate company for it.",
       },
     ],
+    cta: {
+      heading: "Fencing for Houma businesses",
+      text: "Tell us what needs to be fenced in or screened off, and we’ll come measure the site.",
+    },
   },
 ]

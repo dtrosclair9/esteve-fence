@@ -5,7 +5,7 @@ type Props = { heading?: string; text?: string }
 
 export default function CtaBand({
   heading = 'Get a free fence estimate',
-  text = 'Call or send the form. We will come out to the property and give you a free estimate.',
+  text = 'Call or send the form and we will set up a time to come measure.',
 }: Props) {
   return (
     <section className="bg-green">

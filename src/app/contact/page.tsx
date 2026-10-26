@@ -20,7 +20,7 @@ const faqs: FAQ[] = [
   },
   {
     q: 'Do I need to be home for the estimate?',
-    a: 'It helps, so we can go over the details with you in person. If you cannot be there, let us know and we can talk it through by phone.',
+    a: 'It helps, since a lot gets decided right there. If you can’t make it, tell us and we’ll talk it through by phone.',
   },
   {
     q: 'Is there a charge to come out?',

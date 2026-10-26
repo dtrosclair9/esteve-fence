@@ -50,11 +50,10 @@ export default async function ServiceRoute({ params }: Params) {
           faqs={svc.faqs}
           faqHeading={`${svc.navLabel}: common questions`}
           related={related}
+          cta={svc.cta}
           area={{
             heading: cities.length ? `${svc.navLabel} by city` : 'Where we work',
-            text: cities.length
-              ? `We run ${svc.navLabel.toLowerCase()} jobs all over Lafourche and Terrebonne. These pages cover what is different about the work in each city.`
-              : `Esteve's is based in ${site.city} and works across Lafourche, Terrebonne and Assumption parishes.`,
+            text: cities.length ? 'Pages for specific towns:' : `Based in ${site.city}.`,
             links: cities.map((c) => ({ label: c.h1, href: `/services/${c.slug}` })),
             towns: defaultTowns,
           }}
@@ -99,6 +98,7 @@ export default async function ServiceRoute({ params }: Params) {
         faqs={city.faqs}
         faqHeading={`Questions from ${city.city} customers`}
         related={related}
+        cta={city.cta}
         area={{
           heading: `Around ${city.city}`,
           text: `From ${city.city} we also cover ${city.nearby.join(', ')}. More ${city.city} pages:`,

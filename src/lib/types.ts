@@ -38,6 +38,8 @@ export type ServicePage = {
   serviceType: string
   /** One-sentence blurb for the service index on the homepage and /services. */
   cardBlurb: string
+  /** Closing CTA band copy, unique to this page. */
+  cta?: { heading: string; text: string }
 }
 
 export type CityPage = {
@@ -62,6 +64,8 @@ export type CityPage = {
   gallery: string[]
   /** 3–4 city-specific FAQs */
   faqs: FAQ[]
+  /** Closing CTA band copy, unique to this page. */
+  cta?: { heading: string; text: string }
 }
 
 export type Town = {

@@ -5,7 +5,7 @@ export const towns: Town[] = [
     name: "Thibodaux",
     parish: "Lafourche Parish",
     blurb:
-      "Thibodaux is home base for Esteve's Fence Company. It's the Lafourche Parish seat, sitting on Bayou Lafourche with Nicholls State University on the edge of downtown and cane fields all around town. We install and repair fences here, build gates and brick columns, and pour patios, shed slabs and driveway extensions.",
+      "This is where we’re based. We build and fix fences all over town, and we also do brick columns, patios, shed slabs and driveway extensions.",
     links: [
       { label: "Fence installation in Thibodaux", href: "/services/fence-installation-thibodaux-la" },
     ],
@@ -14,7 +14,7 @@ export const towns: Town[] = [
     name: "Houma",
     parish: "Terrebonne Parish",
     blurb:
-      "Houma is the Terrebonne Parish seat and the biggest city in our area. It sits low, with Bayou Terrebonne running through town and the Intracoastal Waterway nearby, and hurricane season is part of life here. We do residential fences, fence repair and commercial chain link in Houma and the communities around it.",
+      "We put up backyard fences in Houma, fix the ones the weather got to, and fence in business lots with chain link.",
     links: [
       { label: "Fence installation in Houma", href: "/services/fence-installation-houma-la" },
       { label: "Fence repair in Houma", href: "/services/fence-repair-houma-la" },
@@ -25,60 +25,60 @@ export const towns: Town[] = [
     name: "Raceland",
     parish: "Lafourche Parish",
     blurb:
-      "Raceland is a sugarcane town on Bayou Lafourche near where US 90 crosses LA 1 and LA 308. It's a short way from our base in Thibodaux, and we serve homes and businesses there for fences, gates and concrete work.",
+      "Raceland is close to home for us. Call if you need a fence, a gate or a patio poured.",
   },
   {
     name: "Gray",
     parish: "Terrebonne Parish",
     blurb:
-      "Gray sits on the north side of Terrebonne Parish where LA 24 meets US 90, between Houma and Schriever. It has a mix of subdivisions and homes on bigger pieces of land, and Esteve's serves it for fence installation, repair and gates.",
+      "Gray has subdivision yards and homes with more land behind them. A privacy fence suits one and a ranch fence suits the other, and we build both.",
   },
   {
     name: "Bayou Blue",
     parish: "Lafourche and Terrebonne parishes",
     blurb:
-      "Bayou Blue straddles the line between Lafourche and Terrebonne parishes, between Houma and Raceland. Since we work in both parishes, either side of the line is in our area for fences, gates and repairs.",
+      "Bayou Blue is split between Lafourche and Terrebonne. We work in both parishes, so it doesn’t matter which side of the line you’re on.",
   },
   {
     name: "Labadieville",
     parish: "Assumption Parish",
     blurb:
-      "Labadieville is a small Assumption Parish community along Bayou Lafourche, north of Thibodaux. Properties there range from homes near the highway to bigger tracts with fields behind them, and we serve the area for everything from privacy fences to ranch and barbed wire fencing.",
+      "Up the bayou in Assumption Parish. If you have a field behind the house, ask us about a ranch or barbed wire fence.",
   },
   {
     name: "Schriever",
     parish: "Terrebonne Parish",
     blurb:
-      "Schriever sits where LA 20 and LA 24 split, on the main routes between Thibodaux and Houma. Much of the land around it is cane fields and open acreage. Esteve's serves Schriever for residential fences, ranch fences and gates.",
+      "There’s a lot of open cane land around Schriever. We build ranch fences out there, along with backyard fences and gates.",
   },
   {
     name: "Lockport",
     parish: "Lafourche Parish",
     blurb:
-      "Lockport is a boatbuilding town on Bayou Lafourche south of Raceland, with homes close to the water. We serve Lockport for fence installation and repair, gates and brick columns.",
+      "Lockport sits on Bayou Lafourche south of Raceland. We install new fences there, repair old ones and build brick columns.",
   },
   {
     name: "Chackbay",
     parish: "Lafourche Parish",
     blurb:
-      "Chackbay is a rural part of Lafourche Parish a few miles north of Thibodaux on LA 20, near Choupique and Kraemer. Lots tend to be bigger out there, and we serve the area for ranch fences, barbed wire, privacy fences and gates.",
+      "Lots in Chackbay tend to run bigger, which is where barbed wire and ranch fence make sense. We build privacy fences and gates out there too.",
   },
   {
     name: "Napoleonville",
     parish: "Assumption Parish",
     blurb:
-      "Napoleonville is the Assumption Parish seat, on Bayou Lafourche with sugarcane country around it. Esteve's serves Napoleonville and the rest of Assumption Parish for fences, gates and concrete work.",
+      "We come up to Napoleonville for fences and gates, and for concrete work like patios and shed slabs.",
   },
   {
     name: "Pierre Part",
     parish: "Assumption Parish",
     blurb:
-      "Pierre Part is on the western side of Assumption Parish, near Lake Verret and the edge of the Atchafalaya Basin. Esteve's serves Pierre Part for fence installation, repair and gates.",
+      "Pierre Part is on the far west side of Assumption Parish, near Lake Verret. It’s in our area for new fences, repairs and gates.",
   },
   {
     name: "Belle Rose",
     parish: "Assumption Parish",
     blurb:
-      "Belle Rose is a small community along Bayou Lafourche in the northern part of Assumption Parish. We serve Belle Rose for fences, gates and concrete work, the same as the rest of the parish.",
+      "Belle Rose is a small community on Bayou Lafourche. Give us a call about a fence or a concrete patio.",
   },
 ]
