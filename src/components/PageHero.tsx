@@ -9,6 +9,8 @@ type Crumb = { name: string; path: string }
 type Props = {
   eyebrow: string
   title: string
+  /** Short line set directly under the H1 (not a heading). */
+  subtitle?: string
   intro: string | string[]
   image: string
   imageAlt: string
@@ -21,7 +23,7 @@ type Props = {
   children?: React.ReactNode
 }
 
-export default function PageHero({ eyebrow, title, intro, image, imageAlt, crumbs, size = 'page', imagePosition = 'object-center', children }: Props) {
+export default function PageHero({ eyebrow, title, subtitle, intro, image, imageAlt, crumbs, size = 'page', imagePosition = 'object-center', children }: Props) {
   const paras = Array.isArray(intro) ? intro : [intro]
   const trail = crumbs ? [{ name: 'Home', path: '/' }, ...crumbs] : null
 
@@ -50,12 +52,13 @@ export default function PageHero({ eyebrow, title, intro, image, imageAlt, crumb
           <h1
             className={
               size === 'home'
-                ? 'mt-5 text-[36px] leading-[1.06] sm:text-[48px] lg:text-[50px] xl:text-[54px] font-extrabold'
+                ? 'mt-5 text-[40px] leading-[1.04] sm:text-[54px] lg:text-[58px] xl:text-[64px] font-extrabold'
                 : 'mt-5 text-[36px] leading-[1.08] sm:text-[44px] lg:text-[52px]'
             }
           >
             {title}
           </h1>
+          {subtitle && <p className="mt-4 text-[19px] font-semibold leading-snug text-ink md:text-[22px]">{subtitle}</p>}
           <div className="mt-6 max-w-xl space-y-4 text-[17px] leading-[1.6] text-ink/90 md:text-lg">
             {paras.map((p) => (
               <p key={p}>{p}</p>

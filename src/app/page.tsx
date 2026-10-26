@@ -104,8 +104,9 @@ export default function HomePage() {
 
       <PageHero
         size="home"
-        eyebrow="Locally owned · Based in Thibodaux, LA"
-        title="Fence Company in Lafourche, Terrebonne & Assumption"
+        eyebrow="Locally owned · Thibodaux, LA"
+        title="Thibodaux Fence Company"
+        subtitle="Serving Lafourche, Terrebonne & Assumption parishes"
         intro="Fences, gates, brick columns and concrete for homes, farms and businesses. Estimates are free."
         image="/images/projects/wood/cedar-board-on-board-fence-columns-long-run.jpg"
         imageAlt="Long run of stained board-on-board wood fence with white columns across a large lot"
