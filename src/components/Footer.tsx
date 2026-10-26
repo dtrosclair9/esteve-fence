@@ -12,7 +12,7 @@ export default function Footer() {
           <Image src="/images/brand/logo-full-dark.svg" alt={`${site.name} logo`} width={1446} height={797} className="h-28 w-auto" />
           <span aria-hidden="true" className="mt-6 block h-[3px] w-10 bg-green" />
           <p className="mt-5 max-w-xs text-[16px] leading-[1.65] text-white">
-            Fences, gates, brick columns and concrete for homes, farms and businesses in Lafourche, Terrebonne and Assumption
+            Fences, gates, brick columns and concrete for homes and businesses in Lafourche, Terrebonne and Assumption
             parishes.
           </p>
         </div>

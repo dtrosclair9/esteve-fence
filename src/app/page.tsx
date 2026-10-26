@@ -76,8 +76,8 @@ const faqs: FAQ[] = [
     a: 'Yes, mostly chain link. Call with the address and what you need fenced in.',
   },
   {
-    q: 'Do you build fences for farms and pastures?',
-    a: 'Yes. We build barbed wire and ranch fences for pastures and acreage.',
+    q: 'Do you build barbed wire or ranch fence?',
+    a: 'Yes. We build barbed wire and ranch fence for pastures and land.',
   },
   {
     q: 'Can you add a gate to the fence I already have?',
@@ -107,7 +107,7 @@ export default function HomePage() {
         eyebrow="Locally owned · Thibodaux, LA"
         title="Thibodaux Fence Company"
         subtitle="Serving Lafourche, Terrebonne & Assumption parishes"
-        intro="Fences, gates, brick columns and concrete for homes, farms and businesses. Estimates are free."
+        intro="Fences, gates, brick columns and concrete for homes and businesses. Estimates are free."
         image="/images/projects/wood/cedar-board-on-board-fence-columns-long-run.jpg"
         imageAlt="Long run of stained board-on-board wood fence with white columns across a large lot"
         imagePosition="object-[60%_50%]"
@@ -146,7 +146,7 @@ export default function HomePage() {
             </div>
             <div className="prose-body self-end lg:col-span-5 lg:col-start-8">
               <p>
-                We build fences for homes, businesses and farms, along with brick columns, gates and concrete. Every
+                We build fences for homes and businesses, along with brick columns, gates and concrete. Every
                 service below has its own page with more detail and common questions.
               </p>
             </div>
@@ -208,8 +208,8 @@ export default function HomePage() {
             <h2 id="about-h" className="mt-4 text-[30px] leading-[1.12] md:text-[40px]">A local fence company based in Thibodaux</h2>
             <div className="prose-body mt-6">
               <p>
-                Esteve’s Fence Company is owned by Ross Esteve and based in Thibodaux. We build fences for homes,
-                businesses and farms.
+                Esteve’s Fence Company is owned by Ross Esteve and based in Thibodaux. We build fences for homes
+                and businesses.
               </p>
               <p>
                 Every job gets measured and quoted on its own.

@@ -51,7 +51,7 @@ export default function AboutPage() {
       <PageHero
         eyebrow="About us"
         title="A Thibodaux Fence Company"
-        intro="Esteve’s Fence Company is locally owned by Ross Esteve and based in Thibodaux. We build fences, gates, brick columns and concrete for homeowners, farms and businesses across Lafourche, Terrebonne and Assumption parishes."
+        intro="Esteve’s Fence Company is locally owned by Ross Esteve and based in Thibodaux. We build fences, gates, brick columns and concrete for homeowners and businesses across Lafourche, Terrebonne and Assumption parishes."
         image="/images/projects/wood/wood-shadowbox-fence-brick-column-gate.jpg"
         imageAlt="Shadowbox wood fence and gate meeting a brick column at the front of a home"
         crumbs={[{ name: 'About', path: '/about' }]}
@@ -63,7 +63,7 @@ export default function AboutPage() {
             <h2 id="work-h" className="text-[30px] leading-[1.12] md:text-[40px]">The kind of work we do</h2>
             <div className="prose-body mt-6">
               <p>
-                We build wood, aluminum, vinyl, chain link, barbed wire and ranch fences for homes, businesses and farms.
+                We build wood, aluminum, vinyl, chain link, barbed wire and ranch fences for homes and businesses.
                 That includes privacy fences, fences around pools, chain link for commercial lots, and fencing for
                 pastures and acreage.
               </p>
