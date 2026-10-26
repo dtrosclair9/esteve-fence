@@ -12,7 +12,7 @@ import type { FAQ } from '@/lib/types'
 export const metadata: Metadata = pageMeta({
   title: 'About Our Thibodaux Fence Company',
   description:
-    'Esteve’s Fence Company is a locally owned fence and gate contractor in Thibodaux, LA, building fences, gates, brick columns and concrete across Bayou Country.',
+    'Esteve’s Fence Company is a locally owned fence contractor in Thibodaux, LA, building fences, gates, brick columns and concrete across Lafourche, Terrebonne and Assumption.',
   path: '/about',
 })
 
@@ -25,7 +25,7 @@ const faqs: FAQ[] = [
   },
   {
     q: 'Do you handle the gate, column and concrete work too?',
-    a: 'Yes. Fences, gates, brick columns and concrete are all services we offer, so one estimate can cover the whole job. If something falls outside that list, such as electrical work for a gate opener, we will say so at the estimate.',
+    a: 'Yes. Fences, gates, brick columns and concrete patios, slabs and driveway extensions are all work we do, so one estimate can cover the whole job. For automatic gate openers, we bring in a licensed gate company.',
   },
   {
     q: 'Are you hiring?',
@@ -63,19 +63,14 @@ export default function AboutPage() {
             <h2 id="work-h" className="text-[30px] leading-[1.12] md:text-[40px]">The kind of work we do</h2>
             <div className="prose-body mt-6">
               <p>
-                A lot of our jobs are backyard privacy fences on new brick homes in the subdivisions around Thibodaux and
-                Houma. Many of those lots back up to cane fields or open land, so the fence line is long and the ground can
-                stay wet for weeks after a rain.
+                We build wood, aluminum, vinyl, chain link, barbed wire and ranch fences for homes, businesses and farms.
+                That includes privacy fences, fences around pools, chain link for commercial lots, and fencing for
+                pastures and acreage.
               </p>
               <p>
-                Beyond wood, there are black aluminum fences around pools, vinyl fences for neighborhoods with HOA rules, and chain
-                link for dog yards and back lots. On the commercial side, we put up slatted chain link enclosures, security
-                fencing and subdivision entrance fences with brick columns.
-              </p>
-              <p>
-                One request often leads to the next. A driveway gate tends to need brick columns and a concrete apron, and a
-                new patio slab usually needs a fence around the yard. Since we do fences, gates, masonry columns and
-                concrete, all of that can go on one estimate.
+                We also build brick columns, walk gates and double gates to match your fence, and we do concrete patios,
+                shed slabs, driveway extensions and concrete repair. All of it can go on one estimate. For automatic gate
+                openers, we bring in a licensed gate company.
               </p>
             </div>
           </div>
@@ -93,20 +88,20 @@ export default function AboutPage() {
 
       <section className="section border-y border-line bg-surface" aria-labelledby="how-h">
         <div className="wrap">
-          <h2 id="how-h" className="max-w-2xl text-[30px] leading-[1.12] md:text-[40px]">How we approach a job</h2>
+          <h2 id="how-h" className="max-w-2xl text-[30px] leading-[1.12] md:text-[40px]">What to expect</h2>
           <div className="mt-10 grid gap-10 md:grid-cols-3">
             {[
               {
-                h: 'We look at the ground first',
-                p: 'Low spots, ditches, servitudes and tree roots decide where posts can go and how deep they need to be. We check them at the estimate, before anything is priced.',
+                h: 'A free estimate at your property',
+                p: 'We come out, measure, and go over the details with you, like materials, style and gates.',
               },
               {
-                h: 'Gate posts carry the load',
-                p: 'A gate is the part of a fence that gets used every day, so the gate posts, hinges and latch get more of our time than any other piece. When a gate sags, the hinge post is usually the reason.',
+                h: 'One price for the whole job',
+                p: 'Every job is priced on its own. You get a price for your entire job, sent to you by text or email.',
               },
               {
-                h: 'Cleanup before we go',
-                p: 'Post-hole dirt, offcuts and packaging get picked up at the end of the job. The goal is a yard that looks the way it did before, with a fence in it.',
+                h: 'Old fence and permits handled',
+                p: 'If an old fence has to come out or your address needs a permit, we can take care of it as part of the job.',
               },
             ].map((c) => (
               <div key={c.h} className="border-t-[3px] border-ink pt-5">
@@ -125,8 +120,9 @@ export default function AboutPage() {
           </div>
           <div className="prose-body lg:col-span-7">
             <p>
-              Most of our jobs are in Thibodaux, Houma, Raceland, Gray, Bayou Blue, Schriever and Lockport, with some work
-              up the bayou in Labadieville and Napoleonville. Hours are {site.hours}, closed Sunday.
+              We are based in Thibodaux and work throughout Lafourche, Terrebonne and Assumption parishes and the
+              surrounding areas, including Houma, Raceland, Gray, Bayou Blue, Schriever, Lockport, Labadieville and
+              Napoleonville. Hours are {site.hours}, closed Sunday.
             </p>
             <p>
               <Link href="/service-area" className="link">See the full service area</Link> or{' '}

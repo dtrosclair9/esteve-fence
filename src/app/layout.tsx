@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     template: "%s | Esteve's Fence",
   },
   description:
-    "Esteve's Fence Company builds wood, vinyl, aluminum and chain link fences, automatic gates and brick columns across Lafourche and Terrebonne. Free estimates.",
+    "Esteve's Fence Company builds wood, aluminum, vinyl, chain link and ranch fences across Lafourche, Terrebonne and Assumption. Locally owned. Free estimates.",
   applicationName: site.name,
   authors: [{ name: site.legalName }],
   openGraph: {

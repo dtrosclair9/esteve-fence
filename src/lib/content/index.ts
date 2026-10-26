@@ -5,7 +5,6 @@ import { cityPages } from './cities'
 export { towns } from './towns'
 
 const ORDER = [
-  'automatic-gates',
   'fence-installation',
   'wood-fence',
   'aluminum-fence',
@@ -17,6 +16,7 @@ const ORDER = [
   'farm-ranch-fencing',
   'brick-columns',
   'concrete',
+  'automatic-gates',
 ]
 
 export const services: ServicePage[] = [...servicesA, ...servicesB].sort(
@@ -42,5 +42,5 @@ export const navGroups = [
     label: 'Fences',
     slugs: ['fence-installation', 'fence-repair', 'wood-fence', 'vinyl-fence', 'aluminum-fence', 'chain-link-fence', 'commercial-fencing', 'pool-fencing', 'farm-ranch-fencing'],
   },
-  { label: 'Gates & Hardscape', slugs: ['automatic-gates', 'brick-columns', 'concrete'] },
+  { label: 'Gates & Hardscape', slugs: ['brick-columns', 'concrete', 'automatic-gates'] },
 ]

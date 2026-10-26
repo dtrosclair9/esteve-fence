@@ -50,7 +50,7 @@ export default function PageHero({ eyebrow, title, intro, image, imageAlt, crumb
           <h1
             className={
               size === 'home'
-                ? 'mt-5 text-[40px] leading-[1.06] sm:text-[52px] lg:text-[64px] xl:text-[70px] font-extrabold'
+                ? 'mt-5 text-[36px] leading-[1.06] sm:text-[48px] lg:text-[50px] xl:text-[54px] font-extrabold'
                 : 'mt-5 text-[36px] leading-[1.08] sm:text-[44px] lg:text-[52px]'
             }
           >

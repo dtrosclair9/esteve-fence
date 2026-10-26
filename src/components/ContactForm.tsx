@@ -8,17 +8,17 @@ type FormState = 'idle' | 'loading' | 'success' | 'error'
 const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mnpjllzv'
 
 const SERVICES = [
-  'Wood privacy fence',
+  'Wood fence',
   'Aluminum fence',
   'Vinyl fence',
   'Chain link fence',
-  'Automatic or driveway gate',
   'Brick columns',
   'Pool fence',
   'Farm or ranch fence',
   'Commercial fence',
   'Fence repair',
-  'Concrete driveway, patio or slab',
+  'Concrete patio, slab or driveway extension',
+  'Gate or automatic gate',
   'Something else',
 ]
 

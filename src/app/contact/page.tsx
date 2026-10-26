@@ -9,18 +9,18 @@ import type { FAQ } from '@/lib/types'
 export const metadata: Metadata = pageMeta({
   title: 'Free Fence Estimate in Thibodaux & Houma',
   description:
-    'Request a free fence, gate or concrete estimate from Esteve’s Fence Company. Call (985) 414-0858 or send the form. Serving Lafourche and Terrebonne parishes.',
+    'Request a free fence, gate or concrete estimate from Esteve’s Fence Company. Call (985) 414-0858 or send the form. Serving Lafourche, Terrebonne and Assumption.',
   path: '/contact',
 })
 
 const faqs: FAQ[] = [
   {
     q: 'What should I have ready when I call?',
-    a: 'The job address, a rough idea of how many feet of fence you need, the height and material you are leaning toward, and how many gates. A survey or plat of the lot helps if you have one. None of it is required to set up an estimate.',
+    a: 'Just the job address and what you have in mind. We take the measurements when we come out.',
   },
   {
     q: 'Do I need to be home for the estimate?',
-    a: 'It helps, so we can walk the line together and mark where gates go. If you cannot be there, tell us and we will work out a way to go over it by phone after.',
+    a: 'It helps, so we can go over the details with you in person. If you cannot be there, let us know and we can talk it through by phone.',
   },
   {
     q: 'Is there a charge to come out?',

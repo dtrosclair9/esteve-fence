@@ -21,7 +21,7 @@ export const site = {
   hoursSpec: { days: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], opens: '07:30', closes: '18:00' },
   facebook: 'https://www.facebook.com/p/Esteves-Fence-Company-LLC-100083181258133/',
   googleReviews: 'https://maps.app.goo.gl/mqWQwGco256oTYs36',
-  areaServed: ['Thibodaux', 'Houma', 'Raceland', 'Gray', 'Bayou Blue', 'Labadieville', 'Schriever', 'Lockport', 'Chackbay', 'Napoleonville'],
+  areaServed: ['Thibodaux', 'Houma', 'Raceland', 'Gray', 'Bayou Blue', 'Labadieville', 'Schriever', 'Lockport', 'Chackbay', 'Napoleonville', 'Pierre Part', 'Belle Rose'],
   parishes: ['Lafourche Parish', 'Terrebonne Parish', 'Assumption Parish'],
 }
 
@@ -29,7 +29,7 @@ export const ogImage = {
   url: '/images/og-image.jpg',
   width: 1200,
   height: 630,
-  alt: "Esteve's Fence Company, fence builders in Thibodaux and Houma, Louisiana",
+  alt: "Esteve's Fence Company, fence builders based in Thibodaux, Louisiana",
 }
 
 export function pageMeta(opts: { title: string; description: string; path: string; absoluteTitle?: boolean }) {

@@ -68,7 +68,7 @@ export default function ServiceDetail(p: Props) {
               ))}
             </ul>
             <div className="mt-8 bg-ink p-6 text-white on-dark">
-              <p className="font-display text-[20px] font-bold leading-snug text-white">Free estimates, Monday through Saturday</p>
+              <p className="font-display text-[20px] font-bold leading-snug text-white">Free estimates at your property</p>
               <p className="mt-2 text-[15px] leading-[1.6] text-white">{site.hours}</p>
               <a href={`tel:${site.phoneRaw}`} className="btn-green mt-5 w-full">Call {site.phoneDisplay}</a>
               <Link href="/contact" className="btn-line-light mt-3 w-full">Send the estimate form</Link>

@@ -11,28 +11,28 @@ import { pageMeta } from '@/lib/site'
 import type { FAQ } from '@/lib/types'
 
 export const metadata: Metadata = pageMeta({
-  title: 'Fence & Gate Services in Lafourche & Terrebonne',
+  title: 'Fence Services in Lafourche, Terrebonne & Assumption',
   description:
-    'Wood, vinyl, aluminum and chain link fences, automatic gates, brick columns, pool and farm fencing, repair and concrete from Esteve’s Fence in Thibodaux, LA.',
+    'Wood, aluminum, vinyl, chain link and ranch fences, fence repair, brick columns, gates and concrete patios and slabs from Esteve’s Fence in Thibodaux, LA.',
   path: '/services',
 })
 
 const faqs: FAQ[] = [
   {
     q: 'Which fence material should I pick?',
-    a: 'Start with what the fence has to do. Privacy usually means wood or vinyl, a pool needs a code-compliant barrier (most people choose aluminum), and keeping a dog in on a budget points to chain link. We go over the tradeoffs at the estimate.',
+    a: 'Start with what the fence has to do. Privacy usually means wood or vinyl, aluminum is a common pick around pools and front yards, and chain link is the budget option for keeping a dog in. We go over the options at the estimate.',
   },
   {
     q: 'Do you handle small jobs like one gate or a short section?',
-    a: 'Yes. We take gate builds, short runs and repairs as well as full perimeter fences. Call and describe the job and we will tell you whether it makes sense to come out.',
+    a: 'Yes. Call and describe the job. Smaller jobs are priced to cover the time it takes to get a crew out there.',
   },
   {
-    q: 'Can one estimate cover a fence, a gate and a driveway?',
-    a: 'Yes. Tell us everything you are thinking about and we price it together, so the fence, gate posts or columns and the concrete are planned around each other.',
+    q: 'Can one estimate cover a fence, a gate and concrete?',
+    a: 'Yes. Tell us everything you are thinking about and we price it together as one job.',
   },
   {
-    q: 'Do you work outside Lafourche and Terrebonne?',
-    a: 'We take jobs in Assumption Parish too, around Labadieville and Napoleonville. For anything farther out, call and ask; it depends on the size of the job.',
+    q: 'Do you work outside Lafourche, Terrebonne and Assumption?',
+    a: 'We work across Lafourche, Terrebonne and Assumption parishes and the surrounding areas. For longer drives, travel may be added to the price, so call and ask.',
   },
 ]
 
@@ -47,7 +47,7 @@ export default function ServicesIndexPage() {
       />
       <PageHero
         eyebrow="Services"
-        title="Fence & Gate Services in Lafourche & Terrebonne"
+        title="Fence Services in Lafourche, Terrebonne & Assumption"
         intro="Every fence type we build, plus gates, brick columns and the concrete that goes with them. Pick a service for the details, or call and we will sort out what fits your property."
         image="/images/projects/brick-columns/wood-privacy-fence-brick-columns-aluminum-gate.jpg"
         imageAlt="Wood privacy fence with brick columns and a black aluminum walk gate at dusk"

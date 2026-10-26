@@ -9,7 +9,7 @@ import { BASE_URL, pageMeta } from '@/lib/site'
 export const metadata: Metadata = pageMeta({
   title: 'Fence & Gate Project Photos',
   description:
-    'Photos of wood, aluminum, vinyl and chain link fences, driveway gates, brick columns and concrete built by Esteve’s Fence Company around Thibodaux and Houma.',
+    'Photos of wood, aluminum, vinyl and chain link fences, gates and brick columns from Esteve’s Fence Company, serving Lafourche, Terrebonne and Assumption.',
   path: '/gallery',
 })
 
@@ -45,8 +45,8 @@ export default function GalleryPage() {
       />
       <PageHero
         eyebrow="Gallery"
-        title="Fence & Gate Photos from Thibodaux & Houma"
-        intro="Real jobs from our crew around Lafourche and Terrebonne. Every photo here is a fence, gate, column or slab we built."
+        title="Fence Photos from Lafourche, Terrebonne & Assumption"
+        intro="Fences, gates and brick columns from jobs around Lafourche, Terrebonne and Assumption parishes."
         image="/images/projects/wood/cedar-board-on-board-fence-columns-long-run.jpg"
         imageAlt="Long run of stained board-on-board wood fence with white columns across a large lot"
         crumbs={[{ name: 'Gallery', path: '/gallery' }]}

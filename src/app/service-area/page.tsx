@@ -8,9 +8,9 @@ import { towns } from '@/lib/content'
 import { pageMeta } from '@/lib/site'
 
 export const metadata: Metadata = pageMeta({
-  title: 'Fence Company Service Area: Lafourche & Terrebonne',
+  title: 'Service Area: Lafourche, Terrebonne & Assumption',
   description:
-    'Esteve’s Fence Company builds fences and gates in Thibodaux, Houma, Raceland, Gray, Bayou Blue, Schriever, Lockport, Chackbay, Labadieville and Napoleonville.',
+    'Esteve’s Fence Company builds fences and gates in Thibodaux, Houma, Raceland, Gray, Bayou Blue, Schriever, Lockport, Chackbay, Labadieville, Napoleonville and nearby.',
   path: '/service-area',
 })
 
@@ -21,8 +21,8 @@ export default function ServiceAreaPage() {
       <JsonLd data={itemListSchema('Towns served by Esteve’s Fence Company', towns.map((t) => ({ name: `${t.name}, LA`, path: `/service-area#${t.name.toLowerCase().replace(/\s+/g, '-')}` })))} />
       <PageHero
         eyebrow="Service area"
-        title="Fence Service Area: Thibodaux, Houma & Nearby Towns"
-        intro="We are based in Thibodaux and work across Lafourche, Terrebonne and Assumption parishes. Here is what fencing looks like in each town we cover."
+        title="Fence Service Area: Lafourche, Terrebonne & Assumption"
+        intro="We are based in Thibodaux and work throughout Lafourche, Terrebonne and Assumption parishes and the surrounding areas. These are some of the towns we cover."
         image="/images/projects/wood/wood-privacy-fence-long-run-rural.jpg"
         imageAlt="Long wood privacy fence running along a rural backyard"
         crumbs={[{ name: 'Service area', path: '/service-area' }]}
@@ -53,7 +53,7 @@ export default function ServiceAreaPage() {
           </div>
         </section>
       ))}
-      <CtaBand heading="Not sure if you are in range?" text="Call and tell us where the job is. If it is close to these towns, we can usually make it work." />
+      <CtaBand heading="Not sure if you are in range?" text="Call and tell us where the job is. We work throughout the surrounding areas too." />
     </>
   )
 }
