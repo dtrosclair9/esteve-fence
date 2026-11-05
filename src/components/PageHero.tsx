@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import JsonLd from './JsonLd'
 import { breadcrumbSchema } from '@/lib/schema'
+import { focalClass } from '@/lib/images'
 import { site } from '@/lib/site'
 
 type Crumb = { name: string; path: string }
@@ -23,7 +24,7 @@ type Props = {
   children?: React.ReactNode
 }
 
-export default function PageHero({ eyebrow, title, subtitle, intro, image, imageAlt, crumbs, size = 'page', imagePosition = 'object-center', children }: Props) {
+export default function PageHero({ eyebrow, title, subtitle, intro, image, imageAlt, crumbs, size = 'page', imagePosition, children }: Props) {
   const paras = Array.isArray(intro) ? intro : [intro]
   const trail = crumbs ? [{ name: 'Home', path: '/' }, ...crumbs] : null
 
@@ -71,7 +72,7 @@ export default function PageHero({ eyebrow, title, subtitle, intro, image, image
           {children}
         </div>
         <div className="relative h-[280px] sm:h-[380px] lg:h-auto">
-          <Image src={image} alt={imageAlt} fill priority sizes="(min-width: 1024px) 58vw, 100vw" className={`object-cover ${imagePosition}`} />
+          <Image src={image} alt={imageAlt} fill priority sizes="(min-width: 1024px) 58vw, 100vw" className={`object-cover ${imagePosition ?? focalClass(image)}`} />
         </div>
       </div>
     </section>

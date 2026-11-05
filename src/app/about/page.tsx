@@ -12,7 +12,7 @@ import type { FAQ } from '@/lib/types'
 export const metadata: Metadata = pageMeta({
   title: 'About Our Thibodaux Fence Company',
   description:
-    'Esteve’s Fence Company is a locally owned fence contractor in Thibodaux, LA, building fences, gates, brick columns and concrete across Lafourche, Terrebonne and Assumption.',
+    'Esteve’s Fence Company is a locally owned fence contractor in Thibodaux, LA, building fences, gates, brick columns and concrete in three parishes.',
   path: '/about',
 })
 

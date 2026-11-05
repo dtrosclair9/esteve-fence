@@ -28,6 +28,7 @@ const legacyRedirects = [
   // Gate city pages removed 2026-10-26: Esteve's subs out gate openers to a licensed company.
   ['/services/automatic-gates-houma-la', '/services/automatic-gates'],
   ['/services/automatic-gates-thibodaux-la', '/services/automatic-gates'],
+  ['/secure-automatic-gate-openers-and-access-control-in-labadieville-la', '/services/automatic-gates'],
   ['/low-maintenance-aluminum-and-vinyl-fence-installation-in-raceland-la', '/services/aluminum-fence'],
   ['/affordable-chain-link-fence-installation-and-repair-in-labadieville-la', '/services/chain-link-fence'],
   ['/custom-wood-fence-installation-and-repair-in-gray-la', '/services/wood-fence'],

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import PageHero from '@/components/PageHero'
 import CtaBand from '@/components/CtaBand'
 import JsonLd from '@/components/JsonLd'
-import { allPhotos } from '@/lib/images'
+import { allPhotos, focalClass } from '@/lib/images'
 import { BASE_URL, pageMeta } from '@/lib/site'
 
 export const metadata: Metadata = pageMeta({
@@ -70,7 +70,7 @@ export default function GalleryPage() {
               <ul className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4">
                 {items.map((p) => (
                   <li key={p.src} className="relative aspect-square overflow-hidden bg-surface">
-                    <Image src={p.src} alt={p.alt} fill sizes="(min-width:1024px) 300px, 50vw" className="object-cover" />
+                    <Image src={p.src} alt={p.alt} fill sizes="(min-width:1024px) 300px, 50vw" className={`object-cover ${focalClass(p.src)}`} />
                   </li>
                 ))}
               </ul>

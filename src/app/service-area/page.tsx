@@ -10,7 +10,7 @@ import { pageMeta } from '@/lib/site'
 export const metadata: Metadata = pageMeta({
   title: 'Service Area: Lafourche, Terrebonne & Assumption',
   description:
-    'Esteve’s Fence Company builds fences and gates in Thibodaux, Houma, Raceland, Gray, Bayou Blue, Schriever, Lockport, Chackbay, Labadieville, Napoleonville and nearby.',
+    'Esteve’s Fence Company builds fences and gates in Thibodaux, Houma, Raceland, Gray, Bayou Blue, Schriever, Lockport, Labadieville, Napoleonville and nearby.',
   path: '/service-area',
 })
 

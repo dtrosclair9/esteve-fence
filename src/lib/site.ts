@@ -1,7 +1,5 @@
 // Single source of truth for business facts. Canonicals, sitemap, robots and
 // JSON-LD all read BASE_URL from here.
-// TODO before launch: confirm the domain transfers from the rental vendor. If it
-// doesn't, this is the only line that changes.
 export const BASE_URL = 'https://estevesfencecompany.com'
 
 export const site = {
