@@ -236,7 +236,7 @@ export const servicesB: ServicePage[] = [
         a: "We work in all three parishes we cover, Lafourche, Terrebonne and Assumption, and the areas around them.",
       },
     ],
-    related: ["chain-link-fence", "automatic-gates", "farm-ranch-fencing"],
+    related: ["chain-link-fence", "ornamental-steel-fence", "automatic-gates"],
     serviceType: "Commercial fence installation",
     cardBlurb:
       "Commercial chain link, privacy slats and gates for businesses around Thibodaux and Houma.",
@@ -251,7 +251,7 @@ export const servicesB: ServicePage[] = [
   // ---------------------------------------------------------------------------
   {
     slug: "farm-ranch-fencing",
-    navLabel: "Farm & Ranch Fencing",
+    navLabel: "Farm & Ranch Fences",
     group: "fences",
     title: "Farm & Ranch Fencing, Barbed Wire Fence in South LA",
     description:
@@ -329,7 +329,7 @@ export const servicesB: ServicePage[] = [
   // ---------------------------------------------------------------------------
   {
     slug: "pool-fencing",
-    navLabel: "Pool Fencing",
+    navLabel: "Pool Fences",
     group: "fences",
     title: "Pool Fence Installation in Thibodaux and Houma, LA",
     description:

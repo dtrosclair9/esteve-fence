@@ -6,17 +6,19 @@ export { towns } from './towns'
 
 const ORDER = [
   'fence-installation',
-  'wood-fence',
-  'aluminum-fence',
-  'vinyl-fence',
-  'chain-link-fence',
   'fence-repair',
   'commercial-fencing',
-  'pool-fencing',
+  'residential-fencing',
+  'wood-fence',
+  'vinyl-fence',
+  'aluminum-fence',
+  'ornamental-steel-fence',
+  'chain-link-fence',
   'farm-ranch-fencing',
+  'pool-fencing',
+  'automatic-gates',
   'brick-columns',
   'concrete',
-  'automatic-gates',
 ]
 
 export const services: ServicePage[] = [...servicesA, ...servicesB].sort(
@@ -37,10 +39,34 @@ export function cityPagesFor(serviceSlug: string): CityPage[] {
   return cityPages.filter((c) => c.service === serviceSlug)
 }
 
+/** Services menu, in Ross's order. Concrete shares column 3 but stays set apart from the fence work. */
 export const navGroups = [
   {
-    label: 'Fences',
-    slugs: ['fence-installation', 'fence-repair', 'wood-fence', 'vinyl-fence', 'aluminum-fence', 'chain-link-fence', 'commercial-fencing', 'pool-fencing', 'farm-ranch-fencing'],
+    id: 'fence-services',
+    label: 'Fence Services',
+    eyebrow: 'Fence work',
+    column: 1,
+    slugs: ['fence-installation', 'fence-repair', 'commercial-fencing', 'residential-fencing'],
   },
-  { label: 'Gates & Hardscape', slugs: ['brick-columns', 'concrete', 'automatic-gates'] },
+  {
+    id: 'fence-types',
+    label: 'Fence Types',
+    eyebrow: 'Materials and styles',
+    column: 2,
+    slugs: ['wood-fence', 'vinyl-fence', 'aluminum-fence', 'ornamental-steel-fence', 'chain-link-fence', 'farm-ranch-fencing', 'pool-fencing'],
+  },
+  {
+    id: 'gates-columns',
+    label: 'Gates & Columns',
+    eyebrow: 'Gates and brick work',
+    column: 3,
+    slugs: ['automatic-gates', 'brick-columns'],
+  },
+  {
+    id: 'concrete',
+    label: 'Concrete',
+    eyebrow: 'Separate from fence work',
+    column: 3,
+    slugs: ['concrete'],
+  },
 ]

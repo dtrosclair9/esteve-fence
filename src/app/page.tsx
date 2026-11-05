@@ -113,7 +113,7 @@ export default function HomePage() {
         imagePosition="object-[60%_50%]"
       >
         <p className="mt-8 border-t border-line pt-5 text-[14px] font-medium text-muted">
-          Wood · Aluminum · Vinyl · Chain link · Barbed wire · Ranch · Brick columns · Concrete
+          Wood · Aluminum · Steel · Vinyl · Chain link · Barbed wire · Ranch · Brick columns · Concrete
         </p>
       </PageHero>
 

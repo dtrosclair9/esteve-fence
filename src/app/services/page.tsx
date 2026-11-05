@@ -55,10 +55,10 @@ export default function ServicesIndexPage() {
       />
 
       {navGroups.map((g) => (
-        <section key={g.label} className="section border-b border-line" aria-labelledby={`g-${g.label}`}>
+        <section key={g.id} className="section border-b border-line" aria-labelledby={`g-${g.id}`}>
           <div className="wrap">
-            <p className="label">{g.label === 'Fences' ? 'Fence types and fence work' : 'Gates, columns and concrete'}</p>
-            <h2 id={`g-${g.label}`} className="mb-10 mt-4 text-[30px] md:text-[40px]">{g.label}</h2>
+            <p className="label">{g.eyebrow}</p>
+            <h2 id={`g-${g.id}`} className="mb-10 mt-4 text-[30px] md:text-[40px]">{g.label}</h2>
             <ServiceIndex items={g.slugs.map((slug) => services.find((s) => s.slug === slug)!).filter(Boolean)} />
           </div>
         </section>

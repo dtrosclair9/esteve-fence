@@ -1,7 +1,7 @@
 import type { ServicePage } from "../types"
 
 /**
- * Fence service pages, part A: installation, repair, wood, vinyl, aluminum, chain link.
+ * Fence service pages, part A: installation, repair, wood, vinyl, aluminum, chain link, residential, steel.
  * Claims rules (owner review 2026-10-26): only assert what Ross Esteve confirmed.
  * No prices, licensing, years, warranties, timelines, install specs, permit/pool-code
  * details, or brand names. Esteve's does NOT install or service gate openers.
@@ -356,15 +356,15 @@ export const servicesA: ServicePage[] = [
   // ─────────────────────────────────────────────────────────────
   {
     slug: "aluminum-fence",
-    navLabel: "Aluminum Fences",
+    navLabel: "Ornamental Aluminum",
     group: "fences",
     title: "Aluminum Fence Installation in Thibodaux & Houma, LA",
     description:
       "Aluminum fence installation across Lafourche, Terrebonne and Assumption parishes for pools, yards and driveways. Matching gates. Free estimates from Esteve's.",
-    h1: "Aluminum Fences in Thibodaux & Houma",
-    eyebrow: "Aluminum fences · Pools, yards & gates",
+    h1: "Ornamental Aluminum Fences in Thibodaux & Houma",
+    eyebrow: "Ornamental aluminum · Pools, yards & gates",
     intro: [
-      "An aluminum fence keeps kids and pets in and still lets you see out. We install aluminum fences, pool fences and gates.",
+      "An ornamental aluminum fence keeps kids and pets in and still lets you see out. We install aluminum fences, pool fences and gates.",
       "It comes in several styles, heights and colors. It costs more per foot than chain link, so people usually put it where it shows: the front yard, around the pool, or across the driveway.",
     ],
     heroImage: "/images/projects/aluminum/black-aluminum-fence-new-home.jpg",
@@ -418,6 +418,10 @@ export const servicesA: ServicePage[] = [
         a: "Wind goes through the open pickets, so the fence takes much less force than a solid one. Falling limbs and flying debris are the bigger worry.",
       },
       {
+        q: "What's the difference between ornamental aluminum and ornamental steel?",
+        a: "They look the same, but they're two different materials from two different suppliers. Aluminum is the one you'll see at most homes. Steel costs more.",
+      },
+      {
         q: "Do you install aluminum pool fences?",
         a: "We do, along with pool gates.",
       },
@@ -426,7 +430,7 @@ export const servicesA: ServicePage[] = [
         a: "No. Esteve's doesn't install gate openers. When a customer wants one, we bring in a separate licensed gate company.",
       },
     ],
-    related: ["pool-fencing", "automatic-gates", "fence-installation"],
+    related: ["ornamental-steel-fence", "pool-fencing", "automatic-gates"],
     serviceType: "Aluminum fence installation",
     cardBlurb:
       "Rust-free aluminum fence for pools, front yards and driveways, with walk and driveway gates.",
@@ -519,6 +523,164 @@ export const servicesA: ServicePage[] = [
     cta: {
       heading: "Chain link for your yard or lot",
       text: "Want slats or barbed wire? Tell us up front and we’ll price them in.",
+    },
+  },
+  // ─────────────────────────────────────────────────────────────
+  // 7. RESIDENTIAL FENCING
+  // ─────────────────────────────────────────────────────────────
+  {
+    slug: "residential-fencing",
+    navLabel: "Residential Fencing",
+    group: "fences",
+    title: "Residential Fence Company in Thibodaux & Houma, LA",
+    description:
+      "Residential fencing in Thibodaux, Houma and across Lafourche, Terrebonne and Assumption. Wood, vinyl, aluminum and chain link for your yard. Free estimates.",
+    h1: "Residential Fencing in Thibodaux & Houma",
+    eyebrow: "Home fences · Lafourche, Terrebonne & Assumption",
+    intro: [
+      "We put up fences at people's homes all over the area: backyards, side yards, around pools and across the front of the lot.",
+      "Not sure what you want? That's fine. Plenty of people don't when they call. We'll measure, go over your options and price it from there.",
+    ],
+    heroImage: "/images/projects/wood/wood-privacy-fence-corner-brick-home.jpg",
+    heroAlt: "Wood privacy fence meeting the corner of a brick home",
+    sections: [
+      {
+        h2: "What's the cheapest fence for a house?",
+        body: [
+          "A treated pine privacy fence with 4x4 posts. That's our base fence, and it's what we usually price when someone isn't sure what they want.",
+          "Then we can show you what it adds to go with cedar boards or galvanized posts, so you can decide with real numbers in front of you.",
+        ],
+      },
+      {
+        h2: "Why does a shadowbox fence cost more than a privacy fence?",
+        body: [
+          "It takes more boards and more labor. If you're stuck between styles, ask us to price both on the same fence and you can compare them.",
+        ],
+      },
+      {
+        h2: "Which material fits your yard?",
+        body: [
+          "Wood is the most common fence we quote. Vinyl skips the staining. Ornamental aluminum lets you see out and works well around a pool. Chain link is a practical way to keep a dog in the yard.",
+          "You can also mix them, like wood across the back for privacy and aluminum on the sides to keep the view.",
+        ],
+      },
+    ],
+    included: [
+      "Free estimate at your home",
+      "Wood, vinyl, ornamental aluminum and chain link",
+      "Walk gates and double gates to match",
+      "Brick columns if you want them",
+      "Old fence removal and permits, at an added charge",
+    ],
+    gallery: [
+      "/images/projects/vinyl/white-vinyl-fence-backyard.jpg",
+      "/images/projects/aluminum/black-aluminum-fence-field-view.jpg",
+      "/images/projects/wood/wood-shadowbox-fence-brick-column-gate.jpg",
+    ],
+    faqs: [
+      {
+        q: "How do you price a fence for my house?",
+        a: "We come out, measure and talk through what you want. Then we price your job on its own.",
+      },
+      {
+        q: "What if the footage changes once you start?",
+        a: "A few feet either way usually doesn't change your price. If it's off by around 10 feet or more, we'll adjust the invoice to the actual footage, up or down.",
+      },
+      {
+        q: "Can you price more than one style?",
+        a: "Yes. Tell us which ones you're thinking about when we come out.",
+      },
+      {
+        q: "Can you upgrade a wood fence to cedar or galvanized posts?",
+        a: "Yes. We can show you the added cost of each on your estimate, and you can take either one, both or neither.",
+      },
+      {
+        q: "Do you take down the old fence?",
+        a: "We can. Tear-out and haul-off is an extra charge.",
+      },
+    ],
+    related: ["wood-fence", "vinyl-fence", "fence-installation", "pool-fencing"],
+    serviceType: "Residential fence installation",
+    cardBlurb:
+      "Fences for your home, from a basic treated pine privacy fence to cedar, vinyl and ornamental aluminum.",
+    cta: {
+      heading: "Fencing your yard?",
+      text: "Call or send the form. If you don't know what you want yet, we can help with that too.",
+    },
+  },
+
+  // ─────────────────────────────────────────────────────────────
+  // 8. ORNAMENTAL STEEL FENCE
+  // ─────────────────────────────────────────────────────────────
+  {
+    slug: "ornamental-steel-fence",
+    navLabel: "Ornamental Steel",
+    group: "fences",
+    title: "Ornamental Steel Fence in Thibodaux & Houma, LA",
+    description:
+      "Ornamental steel fences in Thibodaux, Houma and across Lafourche, Terrebonne and Assumption parishes, for businesses and homes. Free estimates from Esteve's.",
+    h1: "Ornamental Steel Fences in Thibodaux & Houma",
+    eyebrow: "Ornamental steel · Businesses & homes",
+    intro: [
+      "Ornamental steel looks just like ornamental aluminum from the street. It's a different material from a different supplier, and we build both.",
+      "You'll see steel a lot at restaurants and businesses. Not as many homes go with it because of the cost, but we've built it for homes too. The photos here are our aluminum jobs, which have the same look.",
+    ],
+    heroImage: "/images/projects/aluminum/black-aluminum-fence-backyard-subdivision.jpg",
+    heroAlt: "Black ornamental aluminum fence behind a brick home, the same look as ornamental steel",
+    sections: [
+      {
+        h2: "Ornamental steel or ornamental aluminum?",
+        body: [
+          "They look the same, so it comes down to the material and the budget. Steel is heavier and stronger, and it costs more. Aluminum is lighter and won't rust.",
+          "Most homes go with aluminum. If you're not sure which one fits, we can talk through both when we come out.",
+        ],
+      },
+      {
+        h2: "Why does steel cost more?",
+        body: [
+          "The material costs more, and it comes from a different supplier than our aluminum. We price each steel job on its own after measuring.",
+        ],
+      },
+    ],
+    included: [
+      "Free estimate and measuring",
+      "Ornamental steel for businesses and homes",
+      "Ornamental aluminum if it's a better fit",
+      "Old fence removal and permits, at an added charge",
+    ],
+    gallery: [
+      "/images/fb/aluminum/black-aluminum-carport-fence.jpg",
+      "/images/projects/aluminum/black-aluminum-fence-new-construction.jpg",
+    ],
+    faqs: [
+      {
+        q: "Is ornamental steel the same as ornamental aluminum?",
+        a: "No. They look the same, but they're two different materials from two different suppliers. Steel costs more.",
+      },
+      {
+        q: "Do you build ornamental steel fences for homes?",
+        a: "Yes. It's less common at homes because of the price, but we've done it.",
+      },
+      {
+        q: "Do you build ornamental steel fences for businesses?",
+        a: "Yes. Restaurants are one of the places you'll see it most. Call us about your property.",
+      },
+      {
+        q: "Can steel rust?",
+        a: "It can if the coating gets damaged. That's one of the differences from aluminum, which doesn't rust.",
+      },
+      {
+        q: "Can you put an automatic opener on a steel gate?",
+        a: "Esteve's doesn't install gate openers. When a customer wants one, we bring in a separate licensed gate company.",
+      },
+    ],
+    related: ["aluminum-fence", "commercial-fencing", "brick-columns"],
+    serviceType: "Ornamental steel fence installation",
+    cardBlurb:
+      "Ornamental steel fences for businesses and homes. Same look as aluminum, different material.",
+    cta: {
+      heading: "Pricing an ornamental steel fence",
+      text: "Call or send the form and tell us about the property. We'll come measure.",
     },
   },
 ]

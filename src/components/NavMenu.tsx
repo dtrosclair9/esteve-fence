@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useEffect, useRef, useState } from 'react'
 
-export type NavGroup = { label: string; items: { href: string; label: string }[] }
+export type NavGroup = { label: string; column: number; items: { href: string; label: string }[] }
 
 type Props = { groups: NavGroup[]; phoneDisplay: string; phoneRaw: string }
 
@@ -78,23 +78,27 @@ export default function NavMenu({ groups, phoneDisplay, phoneRaw }: Props) {
             </button>
             <div
               id="services-menu"
-              className={`absolute left-1/2 top-full w-[560px] -translate-x-1/2 pt-4 ${svcOpen ? 'block' : 'hidden'}`}
+              className={`absolute left-1/2 top-full w-[760px] -translate-x-1/2 pt-4 ${svcOpen ? 'block' : 'hidden'}`}
             >
-              <div className="grid grid-cols-2 gap-8 rounded border-t-[3px] border-green bg-white p-7 text-ink shadow-xl">
-                {groups.map((g) => (
-                  <div key={g.label}>
-                    <p className="mb-3 text-[12px] font-semibold uppercase tracking-label text-muted">{g.label}</p>
-                    <ul className="space-y-2">
-                      {g.items.map((it) => (
-                        <li key={it.href}>
-                          <Link href={it.href} className="block py-0.5 text-[15px] font-medium hover:underline decoration-2 underline-offset-4" aria-current={current(it.href)}>
-                            {it.label}
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                    {g.label === 'Fences' && (
-                      <Link href="/services" className="mt-4 inline-block text-[14px] font-semibold underline decoration-2 underline-offset-4">
+              <div className="grid grid-cols-3 gap-8 rounded border-t-[3px] border-green bg-white p-7 text-ink shadow-xl">
+                {[1, 2, 3].map((col) => (
+                  <div key={col} className="space-y-6">
+                    {groups.filter((g) => g.column === col).map((g) => (
+                      <div key={g.label}>
+                        <p className="mb-3 text-[12px] font-semibold uppercase tracking-label text-muted">{g.label}</p>
+                        <ul className="space-y-2">
+                          {g.items.map((it) => (
+                            <li key={it.href}>
+                              <Link href={it.href} className="block py-0.5 text-[15px] font-medium hover:underline decoration-2 underline-offset-4" aria-current={current(it.href)}>
+                                {it.label}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    ))}
+                    {col === 1 && (
+                      <Link href="/services" className="inline-block text-[14px] font-semibold underline decoration-2 underline-offset-4">
                         All services
                       </Link>
                     )}

@@ -9,16 +9,17 @@ const FORMSPREE_ENDPOINT = 'https://formspree.io/f/mnpjllzv'
 
 const SERVICES = [
   'Wood fence',
-  'Aluminum fence',
   'Vinyl fence',
+  'Ornamental aluminum fence',
+  'Ornamental steel fence',
   'Chain link fence',
   'Brick columns',
   'Pool fence',
   'Farm or ranch fence',
   'Commercial fence',
   'Fence repair',
-  'Concrete patio, slab or driveway extension',
   'Gate or automatic gate',
+  'Concrete patio, slab or driveway extension',
   'Something else',
 ]
 

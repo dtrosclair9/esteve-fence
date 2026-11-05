@@ -8,6 +8,7 @@ export default function Header() {
   // Only labels + slugs cross into the client bundle, not the page copy.
   const groups: NavGroup[] = navGroups.map((g) => ({
     label: g.label,
+    column: g.column,
     items: g.slugs.map((slug) => ({
       href: `/services/${slug}`,
       label: services.find((s) => s.slug === slug)?.navLabel ?? slug,
