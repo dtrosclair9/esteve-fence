@@ -89,7 +89,7 @@ const faqs: FAQ[] = [
   },
   {
     q: 'What are your hours?',
-    a: 'We work Monday through Saturday, 7:30 am to 6:00 pm, and are closed Sunday. Call (985) 414-0858 or send the estimate form any time.',
+    a: 'We work Monday through Sunday, 7:00 am to 8:00 pm. Call (985) 414-0858 or send the estimate form any time.',
   },
 ]
 
@@ -123,7 +123,7 @@ export default function HomePage() {
           {[
             ['Based in', 'Thibodaux, LA'],
             ['Estimates', 'Free, at your property'],
-            ['Hours', 'Mon–Sat, 7:30–6'],
+            ['Hours', 'Mon–Sun, 7–8'],
             ['Call', site.phoneDisplay],
           ].map(([k, v]) => (
             <li key={k} className="py-6 lg:px-8 lg:first:pl-0">

@@ -147,7 +147,7 @@ export const cityPages: CityPage[] = [
       },
       {
         q: "What are your hours?",
-        a: "Monday through Saturday, 7:30am to 6pm. You can reach us at (985) 414-0858.",
+        a: "Monday through Sunday, 7am to 8pm. You can reach us at (985) 414-0858.",
       },
     ],
     cta: {

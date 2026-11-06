@@ -121,7 +121,7 @@ export default function AboutPage() {
             <p>
               We are based in Thibodaux and work throughout Lafourche, Terrebonne and Assumption parishes and the
               surrounding areas, including Houma, Raceland, Gray, Bayou Blue, Schriever, Lockport, Labadieville and
-              Napoleonville. Hours are {site.hours}, closed Sunday.
+              Napoleonville. Hours are {site.hours}.
             </p>
             <p>
               <Link href="/service-area" className="link">See the full service area</Link> or{' '}

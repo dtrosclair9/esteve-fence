@@ -30,7 +30,6 @@ export default function Footer() {
             </li>
             <li>{site.city}, {site.state} {site.zip}</li>
             <li>{site.hours}</li>
-            <li>Closed Sunday</li>
             <li>
               <Link href="/contact" className="underline underline-offset-4">Request a free estimate</Link>
             </li>

@@ -242,7 +242,7 @@ export const servicesB: ServicePage[] = [
       "Commercial chain link, privacy slats and gates for businesses around Thibodaux and Houma.",
     cta: {
       heading: "Fence your business",
-      text: "We’re open Monday through Saturday, 7:30 to 6. Call and we’ll set a time to see the property.",
+      text: "We’re open Monday through Sunday, 7 to 8. Call and we’ll set a time to see the property.",
     },
   },
 

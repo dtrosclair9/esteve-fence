@@ -66,7 +66,7 @@ export default function ContactPage() {
               </div>
               <div className="py-5">
                 <dt className="text-[12px] font-semibold uppercase tracking-label text-muted">Hours</dt>
-                <dd className="mt-1 text-[17px]">{site.hours}. Closed Sunday.</dd>
+                <dd className="mt-1 text-[17px]">{site.hours}.</dd>
               </div>
               <div className="py-5">
                 <dt className="text-[12px] font-semibold uppercase tracking-label text-muted">Based in</dt>

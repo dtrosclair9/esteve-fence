@@ -167,7 +167,7 @@ export const servicesA: ServicePage[] = [
       },
       {
         q: "How do I get a repair estimate?",
-        a: "Call (985) 414-0858 Monday through Saturday, 7:30am to 6pm. We don't charge for estimates.",
+        a: "Call (985) 414-0858 Monday through Sunday, 7am to 8pm. We don't charge for estimates.",
       },
     ],
     related: ["fence-installation", "wood-fence", "automatic-gates"],
