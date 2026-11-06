@@ -28,7 +28,7 @@ export default function Footer() {
             <li>
               <a href={`mailto:${site.email}`} className="underline underline-offset-4">{site.email}</a>
             </li>
-            <li>{site.city}, {site.state} {site.zip}</li>
+            <li>{site.streetAddress}, {site.city}, {site.state} {site.zip}</li>
             <li>{site.hours}</li>
             <li>
               <Link href="/contact" className="underline underline-offset-4">Request a free estimate</Link>

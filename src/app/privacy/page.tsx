@@ -71,7 +71,7 @@ export default function PrivacyPage() {
 
           <h2>Contact</h2>
           <p>
-            Questions about this policy: {site.legalName}, {site.city}, {site.state} {site.zip}. Phone{' '}
+            Questions about this policy: {site.legalName}, {site.streetAddress}, {site.city}, {site.state} {site.zip}. Phone{' '}
             <a href={`tel:${site.phoneRaw}`} className="link">{site.phoneDisplay}</a>, email{' '}
             <a href={`mailto:${site.email}`} className="link">{site.email}</a>.
           </p>

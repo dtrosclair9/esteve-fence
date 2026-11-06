@@ -69,8 +69,8 @@ export default function ContactPage() {
                 <dd className="mt-1 text-[17px]">{site.hours}.</dd>
               </div>
               <div className="py-5">
-                <dt className="text-[12px] font-semibold uppercase tracking-label text-muted">Based in</dt>
-                <dd className="mt-1 text-[17px]">{site.city}, Louisiana {site.zip}</dd>
+                <dt className="text-[12px] font-semibold uppercase tracking-label text-muted">Address</dt>
+                <dd className="mt-1 text-[17px]">{site.streetAddress}, {site.city}, {site.state} {site.zip}</dd>
               </div>
             </dl>
           </div>

@@ -20,9 +20,9 @@ export function localBusinessSchema() {
     logo: abs('/images/brand/logo-full-light.svg'),
     image: abs('/images/projects/wood/cedar-board-on-board-fence-columns-long-run.jpg'),
     priceRange: '$$',
-    // Service-area business: no public street address on file yet.
     address: {
       '@type': 'PostalAddress',
+      streetAddress: site.streetAddress,
       addressLocality: site.city,
       addressRegion: site.state,
       postalCode: site.zip,
